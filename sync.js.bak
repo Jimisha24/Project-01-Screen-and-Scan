@@ -1,0 +1,90 @@
+﻿const sqlite3 = require('sqlite3').verbose();
+const path = require('path');
+const https = require('https');
+
+const DB_PATH = path.join(__dirname, 'global_radar.db');
+const db = new sqlite3.Database(DB_PATH);
+
+function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+function fetchYahooOHLC(ticker) {
+  return new Promise((resolve) => {
+    const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(ticker)}?range=1y&interval=1d`;
+    
+    const options = {
+      headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)' }
+    };
+
+    https.get(url, options, (res) => {
+      let body = '';
+      res.on('data', chunk => body += chunk);
+      res.on('end', () => {
+        try {
+          const json = JSON.parse(body);
+          const result = json.chart?.result?.[0];
+          if (!result) return resolve(null);
+
+          const timestamps = result.timestamp || [];
+          const quote = result.indicators?.quote?.[0] || {};
+          const candles = [];
+
+          for (let i = 0; i < timestamps.length; i++) {
+            if (quote.open?.[i] && quote.high?.[i] && quote.low?.[i] && quote.close?.[i]) {
+              candles.push({
+                date: new Date(timestamps[i] * 1000).toISOString().split('T')[0],
+                open: parseFloat(quote.open[i].toFixed(2)),
+                high: parseFloat(quote.high[i].toFixed(2)),
+                low: parseFloat(quote.low[i].toFixed(2)),
+                close: parseFloat(quote.close[i].toFixed(2)),
+                volume: quote.volume?.[i] || 0
+              });
+            }
+          }
+          resolve(candles);
+        } catch (e) {
+          resolve(null);
+        }
+      });
+    }).on('error', () => resolve(null));
+  });
+}
+
+async function syncAllTickers() {
+  console.log("🚀 Starting Yahoo Finance OHLC Sync with Rate Limiting...");
+
+  db.all(`SELECT ticker FROM stock_metrics`, async (err, rows) => {
+    if (err) {
+      console.error("Error reading database:", err);
+      return;
+    }
+
+    console.log(`📊 Found ${rows.length} tickers to sync.`);
+
+    for (let i = 0; i < rows.length; i++) {
+      const ticker = rows[i].ticker;
+      console.log(`[${i + 1}/${rows.length}] Fetching OHLC for ${ticker}...`);
+
+      const candles = await fetchYahooOHLC(ticker);
+
+      if (candles && candles.length > 0) {
+        const lastPrice = candles[candles.length - 1].close;
+        const ohlcJson = JSON.stringify(candles);
+
+        db.run(
+          `UPDATE stock_metrics SET current_price = ?, ohlc_json = ? WHERE ticker = ?`,
+          [lastPrice, ohlcJson, ticker]
+        );
+      }
+
+      // 1.5-second delay to comply with rate limits
+      await delay(1500);
+    }
+
+    console.log("✅ OHLC Sync Completed!");
+    db.close();
+  });
+}
+
+syncAllTickers();

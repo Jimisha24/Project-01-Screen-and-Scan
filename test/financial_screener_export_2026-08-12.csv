@@ -1,0 +1,518 @@
+Sr No,Ticker,Company Name,Exchange,Sector,Price ($),Market Cap,Debt/Assets (%),Illiquid Assets (%),Interest Ratio (%),Status
+1,"RELIANCE.NS","Reliance Industries Limited","NSE","Energy",1280,"$17.96T","N/A","N/A","0.00%",REVIEW
+2,"TCS.NS","Tata Consultancy Services Limited","NSE","Technology",2413,"$8.78T","N/A","N/A","0.00%",REVIEW
+3,"NVDA","NVIDIA Corporation - Common Stock","NASDAQ","Technology",218.99,"$5.25T","N/A","N/A","0.00%",REVIEW
+4,"AAPL","Apple Inc.","NASDAQ","Technology",313.33,"$4.46T","N/A","N/A","0.00%",REVIEW
+5,"ADANIPOWER.NS","Adani Power Limited","NSE","Utilities",209.95,"$4.03T","N/A","N/A","0.00%",REVIEW
+6,"MSFT","Microsoft Corporation - Common Stock","NASDAQ","Technology",499.86,"$3.77T","N/A","N/A","0.00%",REVIEW
+7,"HCLTECH.NS","HCL Technologies Limited","NSE","Technology",1350,"$3.69T","N/A","N/A","0.00%",REVIEW
+8,"ULTRACEMCO.NS","UltraTech Cement Limited","NSE","Basic Materials",12190,"$3.48T","N/A","N/A","N/A",REVIEW
+9,"BAJAJ-AUTO.NS","Bajaj Auto Limited","NSE","Consumer Cyclical",11600,"$3.22T","N/A","N/A","0.00%",REVIEW
+10,"JSWSTEEL.NS","JSW Steel Limited","NSE","Basic Materials",1330,"$3.13T","N/A","N/A","0.00%",REVIEW
+11,"ETERNAL.NS","ETERNAL LIMITED","NSE","Consumer Cyclical",316.4,"$2.93T","N/A","N/A","0.00%",REVIEW
+12,"NESTLEIND.NS","Nestle India Limited","NSE","Consumer Defensive",1520,"$2.88T","N/A","N/A","0.00%",REVIEW
+13,"DMART.NS","Avenue Supermarts Limited","NSE","Consumer Defensive",3971.4,"$2.64T","N/A","N/A","0.00%",REVIEW
+14,"HINDZINC.NS","Hindustan Zinc Limited","NSE","Basic Materials",596.95,"$2.48T","N/A","N/A","0.00%",REVIEW
+15,"ADANIGREEN.NS","Adani Green Energy Limited","NSE","Utilities",1384,"$2.25T","N/A","N/A","0.00%",REVIEW
+16,"INDIGO.NS","InterGlobe Aviation Limited","NSE","Industrials",5400,"$2.04T","N/A","N/A","0.00%",REVIEW
+17,"ADANIENSOL.NS","Adani Energy Solutions Limited","NSE","Utilities",1646,"$1.98T","N/A","N/A","0.00%",REVIEW
+18,"TVSMOTOR.NS","TVS Motor Company Limited","NSE","Consumer Cyclical",4455.2,"$1.84T","N/A","N/A","N/A",REVIEW
+19,"VAML.NS","Vedanta Aluminium Metal Limited","NSE","Basic Materials",467.95,"$1.71T","N/A","N/A","N/A",REVIEW
+20,"ABB.NS","ABB India Limited","NSE","Industrials",7700,"$1.61T","N/A","N/A","0.00%",REVIEW
+21,"VBL.NS","Varun Beverages Limited","NSE","Consumer Defensive",437,"$1.55T","N/A","N/A","N/A",REVIEW
+22,"BHEL.NS","Bharat Heavy Electricals Limited","NSE","Industrials",411.95,"$1.40T","N/A","N/A","0.00%",REVIEW
+23,"CGPOWER.NS","CG Power and Industrial Solutions Limited","NSE","Industrials",880.05,"$1.39T","N/A","N/A","0.00%",REVIEW
+24,"TECHM.NS","Tech Mahindra Limited","NSE","Technology",1650,"$1.38T","N/A","N/A","N/A",REVIEW
+25,"POLYCAB.NS","Polycab India Limited","NSE","Industrials",9200,"$1.37T","N/A","N/A","0.00%",REVIEW
+26,"BPCL.NS","Bharat Petroleum Corporation Limited","NSE","Energy",324,"$1.36T","N/A","N/A","0.00%",REVIEW
+27,"SIEMENS.NS","Siemens Limited","NSE","Industrials",3980,"$1.32T","N/A","N/A","N/A",REVIEW
+28,"CIPLA.NS","Cipla Limited","NSE","Healthcare",1460,"$1.18T","N/A","N/A","0.00%",REVIEW
+29,"JSWENERGY.NS","JSW Energy Limited","NSE","Utilities",566,"$1.03T","N/A","N/A","0.00%",REVIEW
+30,"INDHOTEL.NS","The Indian Hotels Company Limited","NSE","Consumer Cyclical",741.05,"$1.03T","N/A","N/A","0.00%",REVIEW
+31,"PAYTM.NS","One 97 Communications Limited","NSE","Technology",1429,"$1.02T","N/A","N/A","0.00%",REVIEW
+32,"LAURUSLABS.NS","Laurus Labs Limited","NSE","Healthcare",1835,"$1.00T","N/A","N/A","0.00%",REVIEW
+33,"MEESHO.NS","Meesho Limited","NSE","Consumer Cyclical",189.75,"$880.37B","N/A","N/A","0.00%",REVIEW
+34,"HINDPETRO.NS","Hindustan Petroleum Corporation Limited","NSE","Energy",394.95,"$831.66B","N/A","N/A","0.00%",REVIEW
+35,"HAVELLS.NS","Havells India Limited","NSE","Industrials",1290,"$799.76B","N/A","N/A","0.00%",REVIEW
+36,"JSWINFRA.NS","JSW Infrastructure Limited","NSE","Industrials",334.4,"$791.44B","N/A","N/A","0.00%",REVIEW
+37,"SRF.NS","SRF Limited","NSE","Industrials",2639.7,"$791.26B","N/A","N/A","N/A",REVIEW
+38,"ATGL.NS","Adani Total Gas Limited","NSE","Utilities",666.95,"$732.64B","N/A","N/A","0.00%",REVIEW
+39,"NATIONALUM.NS","National Aluminium Company Limited","NSE","Basic Materials",381,"$712.61B","N/A","N/A","0.00%",REVIEW
+40,"APARINDS.NS","Apar Industries Limited","NSE","Industrials",15433,"$673.00B","N/A","N/A","0.00%",REVIEW
+41,"OBEROIRLTY.NS","Oberoi Realty Limited","NSE","Real Estate",1806.5,"$652.16B","N/A","N/A","0.00%",REVIEW
+42,"COROMANDEL.NS","Coromandel International Limited","NSE","Basic Materials",2084,"$614.08B","N/A","N/A","0.00%",REVIEW
+43,"TATACOMM.NS","Tata Communications Limited","NSE","Communication Services",1747.8,"$509.52B","N/A","N/A","N/A",REVIEW
+44,"VMM.NS","Vishal Mega Mart Limited","NSE","Consumer Cyclical",111,"$506.37B","N/A","N/A","N/A",REVIEW
+45,"ANTHEM.NS","Anthem Biosciences Limited","NSE","Healthcare",819.25,"$500.85B","N/A","N/A","0.00%",REVIEW
+46,"MPHASIS.NS","MphasiS Limited","NSE","Technology",2460,"$482.77B","N/A","N/A","0.00%",REVIEW
+47,"SONACOMS.NS","Sona BLW Precision Forgings Limited","NSE","Consumer Cyclical",814.6,"$447.41B","N/A","N/A","N/A",REVIEW
+48,"WELCORP.NS","Welspun Corp Limited","NSE","Basic Materials",1788.1,"$419.55B","N/A","N/A","N/A",REVIEW
+49,"JKCEMENT.NS","JK Cement Limited","NSE","Basic Materials",5484.5,"$414.24B","N/A","N/A","0.00%",REVIEW
+50,"LTTS.NS","L&T Technology Services Limited","NSE","Technology",3575.3,"$387.44B","N/A","N/A","0.00%",REVIEW
+51,"HSCL.NS","Himadri Speciality Chemical Limited","NSE","Basic Materials",748.95,"$381.21B","N/A","N/A","0.00%",REVIEW
+52,"ITCHOTELS.NS","ITC Hotels Limited","NSE","Consumer Cyclical",168.93,"$347.63B","N/A","N/A","0.00%",REVIEW
+53,"DALBHARAT.NS","Dalmia Bharat Limited","NSE","Basic Materials",1825.8,"$344.59B","N/A","N/A","0.00%",REVIEW
+54,"HFCL.NS","HFCL Limited","NSE","Technology",212.23,"$327.84B","N/A","N/A","0.00%",REVIEW
+55,"LALPATHLAB.NS","Dr. Lal Path Labs Ltd.","NSE","Healthcare",1887.1,"$326.16B","N/A","N/A","0.00%",REVIEW
+56,"MRPL.NS","Mangalore Refinery and Petrochemicals Limited","NSE","Energy",170.97,"$317.47B","N/A","N/A","0.00%",REVIEW
+57,"TVSHLTD.NS","TVS Holdings Limited","NSE","Consumer Cyclical",14769,"$296.40B","N/A","N/A","N/A",REVIEW
+58,"GRSE.NS","Garden Reach Shipbuilders & Engineers Limited","NSE","Industrials",2507.3,"$295.02B","N/A","N/A","0.00%",REVIEW
+59,"TATATECH.NS","Tata Technologies Limited","NSE","Technology",754,"$288.44B","N/A","N/A","N/A",REVIEW
+60,"SHYAMMETL.NS","Shyam Metalics and Energy Limited","NSE","Basic Materials",1029.6,"$286.97B","N/A","N/A","N/A",REVIEW
+61,"GABRIEL.NS","Gabriel India Limited","NSE","Consumer Cyclical",1587.7,"$266.09B","N/A","N/A","0.00%",REVIEW
+62,"ACUTAAS.NS","Acutaas Chemicals Limited","NSE","Basic Materials",3224.3,"$265.75B","N/A","N/A","0.00%",REVIEW
+63,"ZFCVINDIA.NS","ZF Commercial Vehicle Control Systems India Limited","NSE","Consumer Cyclical",2589.9,"$265.62B","N/A","N/A","N/A",REVIEW
+64,"TXN","Texas Instruments Incorporated - Common Stock","NASDAQ","Technology",278.4,"$258.11B","N/A","N/A","0.00%",REVIEW
+65,"GILLETTE.NS","Gillette India Limited","NSE","Consumer Defensive",7688,"$249.00B","N/A","N/A","0.00%",REVIEW
+66,"FORCEMOT.NS","FORCE MOTORS LTD","NSE","Consumer Cyclical",18538,"$241.52B","N/A","87.30%","0.00%",REVIEW
+67,"ANET","Arista Networks, Inc. Common Stock","NYSE","Technology",197.31,"$241.39B","N/A","87.12%","4.03%",REVIEW
+68,"GRINDWELL.NS","Grindwell Norton Limited","NSE","Industrials",2100.7,"$230.39B","N/A","N/A","0.00%",REVIEW
+69,"TMO","Thermo Fisher Scientific Inc Common Stock","NYSE","Healthcare",580.02,"$223.70B","N/A","N/A","0.00%",REVIEW
+70,"EMMVEE.NS","Emmvee Photovoltaic Power Limited","NSE","Technology",330.5,"$220.44B","N/A","N/A","0.00%",REVIEW
+71,"TATAELXSI.NS","Tata Elxsi Limited","NSE","Technology",3749.8,"$220.35B","N/A","N/A","N/A",REVIEW
+72,"GRANULES.NS","Granules India Limited","NSE","Healthcare",845.1,"$213.35B","N/A","N/A","0.00%",REVIEW
+73,"CHENNPETRO.NS","Chennai Petroleum Corporation Limited","NSE","Energy",1325.7,"$212.36B","N/A","N/A","0.00%",REVIEW
+74,"HATSUN.NS","Hatsun Agro Product Limited","NSE","Consumer Defensive",910.6,"$209.94B","N/A","N/A","0.00%",REVIEW
+75,"ATUL.NS","Atul Limited","NSE","Basic Materials",6793.5,"$201.68B","N/A","N/A","0.00%",REVIEW
+76,"SAGILITY.NS","SAGILITY LIMITED","NSE","Healthcare",43.87,"$201.39B","N/A","N/A","0.00%",REVIEW
+77,"ABT","Abbott Laboratories Common Stock","NYSE","Healthcare",105.63,"$189.46B","N/A","N/A","0.00%",REVIEW
+78,"LMW.NS","LMW Limited","NSE","Industrials",16372,"$185.06B","N/A","90.74%","0.00%",REVIEW
+79,"CASTROLIND.NS","Castrol India Limited","NSE","Energy",187.06,"$184.79B","N/A","N/A","0.00%",REVIEW
+80,"INDIACEM.NS","The India Cements Limited","NSE","Basic Materials",392.8,"$178.41B","N/A","N/A","0.00%",REVIEW
+81,"JINDALSAW.NS","Jindal Saw Limited","NSE","Basic Materials",265.6,"$174.42B","N/A","N/A","0.00%",REVIEW
+82,"SCCO","Southern Copper Corporation Common Stock","NYSE","Basic Materials",193.03,"$164.21B","N/A","N/A","0.00%",REVIEW
+83,"BUD","Anheuser-Busch Inbev SA Sponsored ADR (Belgium)","NYSE","Consumer Defensive",85.18,"$163.19B","N/A","N/A","0.00%",REVIEW
+84,"MEDPLUS.NS","Medplus Health Services Limited","NSE","Healthcare",690.3,"$163.18B","N/A","N/A","0.00%",REVIEW
+85,"NAVA.NS","NAVA LIMITED","NSE","Industrials",582,"$161.21B","N/A","85.40%","0.00%",REVIEW
+86,"CEATLTD.NS","CEAT Limited","NSE","Consumer Cyclical",3611.2,"$151.70B","N/A","N/A","0.00%",REVIEW
+87,"IGIL.NS","International Gemological Institute Limited","NSE","Basic Materials",363.85,"$150.05B","N/A","N/A","0.00%",REVIEW
+88,"SOBHA.NS","Sobha Limited","NSE","Real Estate",1361,"$146.42B","N/A","N/A","N/A",REVIEW
+89,"FRACTAL.NS","Fractal Analytics Limited","NSE","Technology",798.15,"$142.44B","N/A","N/A","0.00%",REVIEW
+90,"KSB.NS","Ksb Limited","NSE","Industrials",791.9,"$141.29B","N/A","N/A","0.00%",REVIEW
+91,"ISRG","Intuitive Surgical, Inc. - Common Stock","NASDAQ","Healthcare",373.71,"$139.76B","N/A","86.78%","2.86%",REVIEW
+92,"ANURAS.NS","Anupam Rasayan India Limited","NSE","Basic Materials",1214.4,"$137.68B","N/A","N/A","0.00%",REVIEW
+93,"RKFORGE.NS","Ramkrishna Forgings Limited","NSE","Industrials",706.45,"$136.87B","N/A","N/A","0.00%",REVIEW
+94,"VINATIORGA.NS","Vinati Organics Limited","NSE","Basic Materials",1327.7,"$135.80B","N/A","99.89%","N/A",REVIEW
+95,"PLD","Prologis, Inc. Common Stock","NYSE","Real Estate",139.14,"$135.61B","N/A","N/A","0.00%",REVIEW
+96,"VOGL.NS","Vedanta Oil and Gas Limited","NSE","Basic Materials",37.1,"$134.30B","N/A","N/A","N/A",REVIEW
+97,"HEG.NS","HEG Limited","NSE","Industrials",686.2,"$130.89B","N/A","N/A","0.00%",REVIEW
+98,"E2E.NS","E2E Networks Limited","NSE","Technology",618,"$128.90B","N/A","N/A","0.00%",REVIEW
+99,"TRIDENT.NS","Trident Limited","NSE","Consumer Cyclical",24.91,"$128.00B","N/A","N/A","N/A",REVIEW
+100,"BLUESTONE.NS","BlueStone Jewellery and Lifestyle Limited","NSE","Consumer Cyclical",848.75,"$127.98B","N/A","N/A","0.00%",REVIEW
+101,"ACE.NS","Action Construction Equipment Limited","NSE","Industrials",1098.6,"$127.75B","N/A","N/A","0.00%",REVIEW
+102,"ATLANTAELE.NS","Atlanta Electricals Limited","NSE","Industrials",1614,"$121.98B","N/A","N/A","0.00%",REVIEW
+103,"JPPOWER.NS","Jaiprakash Power Ventures Limited","NSE","Utilities",18.32,"$121.65B","N/A","N/A","0.00%",REVIEW
+104,"NUVOCO.NS","Nuvoco Vistas Corporation Limited","NSE","Basic Materials",346.1,"$118.31B","N/A","N/A","0.00%",REVIEW
+105,"JUBLINGREA.NS","Jubilant Ingrevia Limited","NSE","Basic Materials",746.1,"$115.62B","N/A","N/A","0.00%",REVIEW
+106,"PVRINOX.NS","PVR INOX Limited","NSE","Communication Services",1161.9,"$113.93B","N/A","N/A","0.00%",REVIEW
+107,"SANOFICONR.NS","Sanofi Consumer Healthcare India Limited","NSE","Healthcare",4551.4,"$105.01B","N/A","N/A","0.00%",REVIEW
+108,"WEWORK.NS","WeWork India Management Limited","NSE","Real Estate",747.7,"$99.02B","N/A","N/A","1.40%",REVIEW
+109,"ELECON.NS","Elecon Engineering Company Limited","NSE","Industrials",444.2,"$97.93B","N/A","N/A","0.00%",REVIEW
+110,"WAAREERTL.NS","Waaree Renewable Technologies Limited","NSE","Industrials",906.05,"$97.82B","N/A","N/A","N/A",REVIEW
+111,"CNQ","Canadian Natural Resources Limited Common Stock","NYSE","Energy",44.75,"$97.80B","N/A","N/A","0.00%",REVIEW
+112,"KIRLPNU.NS","Kirloskar Pneumatic Company Limited","NSE","Industrials",1458,"$96.93B","N/A","N/A","0.00%",REVIEW
+113,"FCX","Freeport-McMoRan, Inc. Common Stock","NYSE","Basic Materials",69.39,"$96.42B","N/A","N/A","0.00%",REVIEW
+114,"ELANTAS.NS","Elantas Beck India Limited","NSE","Basic Materials",13068,"$92.42B","N/A","N/A","0.00%",REVIEW
+115,"RAILTEL.NS","Railtel Corporation Of India Limited","NSE","Communication Services",289.6,"$92.21B","N/A","N/A","0.00%",REVIEW
+116,"VESUVIUS.NS","Vesuvius India Limited","NSE","Industrials",450.2,"$91.99B","N/A","N/A","N/A",REVIEW
+117,"JAYNECOIND.NS","Jayaswal Neco Industries Limited","NSE","Basic Materials",91.77,"$90.30B","N/A","N/A","0.00%",REVIEW
+118,"SGMART.NS","SG Mart Limited","NSE","Industrials",709.5,"$90.10B","N/A","N/A","0.00%",REVIEW
+119,"THYROCARE.NS","Thyrocare Technologies Limited","NSE","Healthcare",600,"$89.97B","N/A","N/A","N/A",REVIEW
+120,"TIPSMUSIC.NS","Tips Music Limited","NSE","Communication Services",672.5,"$89.61B","N/A","N/A","N/A",REVIEW
+121,"CYIENT.NS","Cyient Limited","NSE","Industrials",863.45,"$88.83B","N/A","N/A","0.00%",REVIEW
+122,"TARIL.NS","Transformers And Rectifiers (India) Limited","NSE","Industrials",294.7,"$88.67B","N/A","N/A","N/A",REVIEW
+123,"MAHLIFE.NS","Mahindra Lifespace Developers Limited","NSE","Real Estate",382.85,"$81.73B","N/A","N/A","0.00%",REVIEW
+124,"CTAS","Cintas Corporation - Common Stock","NASDAQ","Industrials",201.4,"$80.92B","N/A","N/A","0.00%",REVIEW
+125,"BORORENEW.NS","BOROSIL RENEWABLES LIMITED","NSE","Technology",559.05,"$79.79B","N/A","N/A","0.00%",REVIEW
+126,"TANLA.NS","Tanla Platforms Limited","NSE","Technology",614,"$79.32B","N/A","N/A","N/A",REVIEW
+127,"NEWGEN.NS","Newgen Software Technologies Limited","NSE","Technology",562.75,"$78.36B","N/A","N/A","0.00%",REVIEW
+128,"TTML.NS","Tata Teleservices (Maharashtra) Limited","NSE","Communication Services",39.85,"$77.12B","N/A","N/A","0.35%",REVIEW
+129,"SANOFI.NS","Sanofi India Limited","NSE","Healthcare",3328.4,"$76.07B","N/A","N/A","0.00%",REVIEW
+130,"SAPPHIRE.NS","Sapphire Foods India Limited","NSE","Consumer Cyclical",202.52,"$75.94B","N/A","N/A","0.00%",REVIEW
+131,"KENNAMET.NS","Kennametal India Limited","NSE","Industrials",3058.6,"$72.57B","N/A","N/A","0.00%",REVIEW
+132,"HMT.NS","HMT Limited","NSE","Industrials",61.48,"$72.15B","N/A","N/A","0.00%",REVIEW
+133,"BAJAJCON.NS","Bajaj Consumer Care Limited","NSE","Consumer Defensive",544.2,"$70.66B","N/A","N/A","0.00%",REVIEW
+134,"KMI","Kinder Morgan, Inc. Common Stock","NYSE","Energy",31.28,"$70.04B","N/A","N/A","0.00%",REVIEW
+135,"RAIN.NS","Rain Industries Limited","NSE","Basic Materials",242.68,"$68.25B","N/A","N/A","0.00%",REVIEW
+136,"GANESHHOU.NS","GANESH HOUSING LIMITED","NSE","Real Estate",778.75,"$63.70B","N/A","N/A","0.00%",REVIEW
+137,"KUSUMGAR.NS","Kusumgar Limited","NSE","Consumer Cyclical",639.9,"$63.20B","N/A","N/A","0.00%",REVIEW
+138,"IBULLSLTD.NS","Indiabulls Limited","NSE","Real Estate",29.05,"$62.93B","N/A","N/A","37.02%",REVIEW
+139,"STYL.NS","Seshaasai Technologies Limited","NSE","Technology",363.8,"$62.13B","N/A","N/A","N/A",REVIEW
+140,"ARVINDFASN.NS","Arvind Fashions Limited","NSE","Consumer Cyclical",445.9,"$59.82B","N/A","N/A","0.00%",REVIEW
+141,"RPEL.NS","Raghav Productivity Enhancers Limited","NSE","Basic Materials",1248.6,"$59.79B","N/A","N/A","0.00%",REVIEW
+142,"JUSTDIAL.NS","Just Dial Limited","NSE","Communication Services",683,"$59.10B","N/A","N/A","0.00%",REVIEW
+143,"ALOKINDS.NS","Alok Industries Limited","NSE","Consumer Cyclical",11.96,"$58.79B","N/A","N/A","0.00%",REVIEW
+144,"STYLAMIND.NS","Stylam Industries Limited","NSE","Consumer Cyclical",3465.9,"$58.08B","N/A","N/A","N/A",REVIEW
+145,"VMART.NS","V-Mart Retail Limited","NSE","Consumer Cyclical",807.05,"$56.96B","N/A","N/A","N/A",REVIEW
+146,"MOIL.NS","MOIL Limited","NSE","Basic Materials",282.7,"$56.86B","N/A","99.84%","0.00%",REVIEW
+147,"CYIENTDLM.NS","Cyient DLM Limited","NSE","Industrials",671.8,"$56.27B","N/A","N/A","0.00%",REVIEW
+148,"MASTEK.NS","Mastek Limited","NSE","Technology",1827.9,"$56.19B","N/A","N/A","0.00%",REVIEW
+149,"SMLMAH.NS","SML Mahindra Limited","NSE","Consumer Cyclical",5917.5,"$55.71B","N/A","N/A","N/A",REVIEW
+150,"EW","Edwards Lifesciences Corporation Common Stock","NYSE","Healthcare",88.82,"$53.93B","N/A","N/A","0.00%",REVIEW
+151,"BANSALWIRE.NS","Bansal Wire Industries Limited","NSE","Basic Materials",314.7,"$50.08B","N/A","N/A","0.00%",REVIEW
+152,"FCL.NS","Fineotex Chemical Limited","NSE","Basic Materials",42,"$50.06B","N/A","N/A","0.00%",REVIEW
+153,"AZO","AutoZone, Inc. Common Stock","NYSE","Consumer Cyclical",3066.06,"$49.93B","N/A","N/A","0.00%",REVIEW
+154,"MPSLTD.NS","MPS Limited","NSE","Communication Services",2873.7,"$48.37B","N/A","N/A","0.00%",REVIEW
+155,"SHILCTECH.NS","Shilchar Technologies Limited","NSE","Industrials",4480.4,"$48.34B","N/A","96.36%","N/A",REVIEW
+156,"SHARDAMOTR.NS","Sharda Motor Industries Limited","NSE","Consumer Cyclical",901.35,"$47.76B","N/A","N/A","N/A",REVIEW
+157,"ROLEXRINGS.NS","Rolex Rings Limited","NSE","Industrials",144.82,"$46.51B","N/A","94.95%","0.00%",REVIEW
+158,"FNV","Franco-Nevada Corporation","NYSE","Basic Materials",231.51,"$46.43B","N/A","91.88%","0.85%",REVIEW
+159,"RTNPOWER.NS","RattanIndia Power Limited","NSE","Utilities",8.76,"$45.86B","N/A","N/A","0.00%",REVIEW
+160,"KOLTEPATIL.NS","Kolte - Patil Developers Limited","NSE","Real Estate",392.6,"$45.81B","N/A","N/A","0.00%",REVIEW
+161,"MHRIL.NS","Mahindra Holidays & Resorts India Limited","NSE","Consumer Cyclical",233.24,"$45.49B","N/A","N/A","0.00%",REVIEW
+162,"SSWL.NS","Steel Strips Wheels Limited","NSE","Consumer Cyclical",319.95,"$45.26B","N/A","N/A","N/A",REVIEW
+163,"SUNTECK.NS","Sunteck Realty Limited","NSE","Real Estate",302.45,"$44.93B","N/A","N/A","N/A",REVIEW
+164,"SWARAJENG.NS","Swaraj Engines Limited","NSE","Consumer Cyclical",3608.9,"$43.38B","N/A","N/A","N/A",REVIEW
+165,"AVANTEL.NS","Avantel Limited","NSE","Technology",164.07,"$42.59B","N/A","N/A","0.00%",REVIEW
+166,"FOSECOIND.NS","Foseco India Limited","NSE","Basic Materials",5346.5,"$41.66B","N/A","N/A","0.00%",REVIEW
+167,"NACLIND.NS","NACL Industries Limited","NSE","Basic Materials",180.83,"$41.37B","N/A","N/A","0.00%",REVIEW
+168,"RALLIS.NS","Rallis India Limited","NSE","Basic Materials",216.36,"$41.13B","N/A","N/A","0.00%",REVIEW
+169,"KSCL.NS","Kaveri Seed Company Limited","NSE","Basic Materials",781.5,"$40.78B","N/A","98.50%","0.00%",REVIEW
+170,"ORIENTELEC.NS","Orient Electric Limited","NSE","Consumer Cyclical",179.82,"$40.69B","N/A","N/A","0.00%",REVIEW
+171,"MAHLOG.NS","Mahindra Logistics Limited","NSE","Industrials",413.5,"$40.62B","N/A","N/A","0.00%",REVIEW
+172,"TATVA.NS","Tatva Chintan Pharma Chem Limited","NSE","Basic Materials",1720.8,"$40.20B","N/A","N/A","N/A",REVIEW
+173,"ROP","Roper Technologies, Inc. - Common Stock","NASDAQ","Technology",397.08,"$40.00B","N/A","N/A","0.00%",REVIEW
+174,"NOVARTIND.NS","Novartis India Limited","NSE","Healthcare",1634.9,"$39.35B","N/A","N/A","0.00%",REVIEW
+175,"VSTIND.NS","VST Industries Limited","NSE","Consumer Defensive",221.41,"$39.00B","N/A","98.82%","N/A",REVIEW
+176,"STLD","Steel Dynamics, Inc. - Common Stock","NASDAQ","Basic Materials",261.48,"$38.38B","N/A","N/A","0.00%",REVIEW
+177,"DBCORP.NS","D.B.Corp Limited","NSE","Communication Services",211.84,"$37.77B","N/A","N/A","0.00%",REVIEW
+178,"EQT","EQT Corporation Common Stock","NYSE","Energy",51.23,"$34.01B","N/A","N/A","0.00%",REVIEW
+179,"NIITMTS.NS","NIIT Learning Systems Limited","NSE","Consumer Defensive",247.6,"$33.83B","N/A","N/A","0.00%",REVIEW
+180,"HERITGFOOD.NS","Heritage Foods Limited","NSE","Consumer Defensive",337.9,"$33.65B","N/A","N/A","0.00%",REVIEW
+181,"RELTD.NS","Ravindra Energy Limited","NSE","Technology",171.67,"$33.55B","N/A","N/A","0.00%",REVIEW
+182,"DPABHUSHAN.NS","D. P. Abhushan Limited","NSE","Consumer Cyclical",1461.6,"$33.49B","N/A","N/A","0.00%",REVIEW
+183,"ROUTE.NS","ROUTE MOBILE LIMITED","NSE","Communication Services",532.3,"$33.40B","N/A","N/A","0.00%",REVIEW
+184,"TDY","Teledyne Technologies Incorporated Common Stock","NYSE","Technology",687.52,"$31.58B","N/A","N/A","0.00%",REVIEW
+185,"CCI","Crown Castle Inc. Common Stock","NYSE","Real Estate",73.84,"$31.34B","N/A","N/A","0.00%",REVIEW
+186,"STEELCAS.NS","Steelcast Limited","NSE","Basic Materials",337,"$30.88B","N/A","99.71%","N/A",REVIEW
+187,"SHANTIGEAR.NS","Shanthi Gears Limited","NSE","Industrials",418.55,"$30.65B","N/A","99.76%","0.00%",REVIEW
+188,"BEPL.NS","Bhansali Engineering Polymers Limited","NSE","Basic Materials",122.94,"$30.49B","N/A","N/A","0.00%",REVIEW
+189,"LVS","Las Vegas Sands Corp. Common Stock","NYSE","Consumer Cyclical",46.11,"$29.61B","N/A","N/A","0.00%",REVIEW
+190,"RSYSTEMS.NS","R Systems International Limited","NSE","Technology",255.35,"$29.02B","N/A","N/A","0.00%",REVIEW
+191,"SANGAMIND.NS","Sangam (India) Limited","NSE","Consumer Cyclical",612.55,"$28.70B","N/A","N/A","0.00%",REVIEW
+192,"HAL","Hindustan Aeronautics Limited","NYSE","Energy",32.51,"$28.24B","N/A","N/A","0.00%",REVIEW
+193,"ROSSARI.NS","Rossari Biotech Limited","NSE","Basic Materials",524.9,"$27.97B","N/A","N/A","0.00%",REVIEW
+194,"JINDALPOLY.NS","Jindal Poly Films Limited","NSE","Consumer Cyclical",626.45,"$27.56B","N/A","N/A","0.00%",REVIEW
+195,"ORIENTCEM.NS","Orient Cement Limited","NSE","Basic Materials",140.36,"$27.56B","N/A","N/A","0.00%",REVIEW
+196,"ORISSAMINE.NS","The Orissa Minerals Development Company Limited","NSE","Basic Materials",4411.7,"$27.03B","N/A","N/A","0.00%",REVIEW
+197,"RAJRATAN.NS","Rajratan Global Wire Limited","NSE","Basic Materials",536.7,"$26.33B","N/A","N/A","0.00%",REVIEW
+198,"ADOR.NS","Ador Welding Limited","NSE","Industrials",1510.8,"$26.20B","N/A","N/A","0.00%",REVIEW
+199,"GLOBUSSPR.NS","Globus Spirits Limited","NSE","Consumer Defensive",891.55,"$25.30B","N/A","N/A","0.00%",REVIEW
+200,"KNACK.NS","Knack Packaging Limited","NSE","Consumer Cyclical",213.35,"$25.30B","N/A","N/A","0.00%",REVIEW
+201,"JBHT","J.B. Hunt Transport Services, Inc. - Common Stock","NASDAQ","Industrials",267.25,"$25.05B","N/A","N/A","0.00%",REVIEW
+202,"DRI","Darden Restaurants, Inc. Common Stock","NYSE","Consumer Cyclical",208.85,"$24.69B","N/A","N/A","0.00%",REVIEW
+203,"RAMCOSYS.NS","Ramco Systems Limited","NSE","Technology",621.7,"$24.53B","N/A","N/A","0.00%",REVIEW
+204,"GANDHAR.NS","Gandhar Oil Refinery (India) Limited","NSE","Energy",231.41,"$23.82B","N/A","N/A","0.00%",REVIEW
+205,"GNA.NS","GNA Axles Limited","NSE","Consumer Cyclical",529.7,"$23.07B","N/A","N/A","0.00%",REVIEW
+206,"PKG","Packaging Corporation of America Common Stock","NYSE","Consumer Cyclical",252.75,"$22.94B","N/A","N/A","0.00%",REVIEW
+207,"ORIENTHOT.NS","Oriental Hotels Limited","NSE","Consumer Cyclical",131.3,"$22.93B","N/A","N/A","0.00%",REVIEW
+208,"NELCO.NS","NELCO Limited","NSE","Technology",995.1,"$22.71B","N/A","N/A","0.00%",REVIEW
+209,"VENUSREM.NS","Venus Remedies Limited","NSE","Healthcare",1524.3,"$22.04B","N/A","N/A","N/A",REVIEW
+210,"RS","Reliance, Inc. Common Stock","NYSE","Basic Materials",418.13,"$21.62B","N/A","N/A","0.00%",REVIEW
+211,"DYCL.NS","Dynamic Cables Limited","NSE","Industrials",401.35,"$21.38B","N/A","N/A","0.00%",REVIEW
+212,"BFUTILITIE.NS","BF Utilities Limited","NSE","Industrials",568.5,"$21.15B","N/A","N/A","0.00%",REVIEW
+213,"THC","Tenet Healthcare Corporation Common Stock","NYSE","Healthcare",256.64,"$20.89B","N/A","N/A","0.00%",REVIEW
+214,"TINNARUBR.NS","Tinna Rubber and Infrastructure Limited","NSE","Basic Materials",1127.8,"$19.92B","N/A","N/A","N/A",REVIEW
+215,"ONTO","Onto Innovation Inc. Common Stock","NYSE","Technology",268.7,"$19.55B","N/A","89.47%","1.75%",REVIEW
+216,"HATHWAY.NS","Hathway Cable & Datacom Limited","NSE","Communication Services",10.9,"$19.05B","N/A","N/A","0.00%",REVIEW
+217,"SERVOTECH.NS","Servotech Renewable Power System Limited","NSE","Industrials",86.27,"$18.83B","N/A","N/A","0.00%",REVIEW
+218,"SSNC","SS&C Technologies Holdings, Inc. - Common Stock","NASDAQ","Technology",79.84,"$18.65B","N/A","N/A","0.00%",REVIEW
+219,"DOLPHIN.NS","Dolphin Offshore Enterprises (India) Limited","NSE","Energy",401.7,"$17.62B","N/A","N/A","0.00%",REVIEW
+220,"AURUM.NS","Aurum PropTech Limited","NSE","Real Estate",216.21,"$17.54B","N/A","N/A","0.00%",REVIEW
+221,"NLY","Annaly Capital Management Inc. Common Stock","NYSE","Real Estate",22.66,"$17.44B","N/A","N/A","0.00%",REVIEW
+222,"NVR","NVR, Inc. Common Stock","NYSE","Consumer Cyclical",6304.81,"$17.13B","N/A","N/A","0.00%",REVIEW
+223,"INFOBEAN.NS","InfoBeans Technologies Limited","NSE","Technology",169.62,"$15.23B","N/A","N/A","0.00%",REVIEW
+224,"NAVKARCORP.NS","Navkar Corporation Limited","NSE","Industrials",102.12,"$15.00B","N/A","N/A","0.00%",REVIEW
+225,"STEELXIND.NS","STEEL EXCHANGE INDIA LIMITED","NSE","Basic Materials",11.52,"$14.92B","N/A","N/A","N/A",REVIEW
+226,"SESHAPAPER.NS","Seshasayee Paper and Boards Limited","NSE","Basic Materials",230.77,"$14.69B","N/A","99.69%","0.00%",REVIEW
+227,"WAAREEINDO.NS","Indosolar Limited","NSE","Technology",329,"$14.67B","N/A","N/A","N/A",REVIEW
+228,"IMPAL.NS","India Motor Parts and Accessories Limited","NSE","Consumer Cyclical",1115.3,"$13.65B","N/A","99.03%","0.00%",REVIEW
+229,"AA","Alcoa Corporation Common Stock","NYSE","Basic Materials",47.67,"$13.50B","N/A","N/A","0.00%",REVIEW
+230,"MENONBE.NS","Menon Bearings Limited","NSE","Consumer Cyclical",232.86,"$13.29B","N/A","N/A","0.00%",REVIEW
+231,"HAS","Hasbro, Inc. - Common Stock","NASDAQ","Consumer Cyclical",91.69,"$13.29B","N/A","N/A","0.00%",REVIEW
+232,"DECK","Deckers Outdoor Corporation Common Stock","NYSE","Consumer Cyclical",99.31,"$13.21B","N/A","N/A","0.00%",REVIEW
+233,"NIITLTD.NS","NIIT Limited","NSE","Consumer Defensive",98.6,"$13.06B","N/A","N/A","0.00%",REVIEW
+234,"CCK","Crown Holdings, Inc.","NYSE","Consumer Cyclical",122.14,"$12.99B","N/A","N/A","0.00%",REVIEW
+235,"DEN.NS","Den Networks Limited","NSE","Communication Services",27.49,"$12.97B","N/A","N/A","0.00%",REVIEW
+236,"ELS","Equity Lifestyle Properties, Inc. Common Stock","NYSE","Real Estate",65,"$12.83B","N/A","N/A","0.00%",REVIEW
+237,"KALAMANDIR.NS","Sai Silks (Kalamandir) Limited","NSE","Consumer Cyclical",88.79,"$12.76B","N/A","N/A","0.00%",REVIEW
+238,"MANAKCOAT.NS","Manaksia Coated Metals & Industries Limited","NSE","Industrials",117.92,"$12.53B","N/A","N/A","0.00%",REVIEW
+239,"PLATIND.NS","Platinum Industries Limited","NSE","Basic Materials",227.46,"$12.21B","N/A","N/A","0.00%",REVIEW
+240,"DPZ","Domino's Pizza Inc - Common Stock","NASDAQ","Consumer Cyclical",366.61,"$11.47B","N/A","N/A","0.14%",REVIEW
+241,"GREENPOWER.NS","Orient Green Power Company Limited","NSE","Utilities",10,"$11.41B","N/A","N/A","0.00%",REVIEW
+242,"RIIL.NS","Reliance Industrial Infrastructure Limited","NSE","Industrials",750.15,"$11.24B","N/A","N/A","0.00%",REVIEW
+243,"TECH","Bio-Techne Corp - Common Stock","NASDAQ","Healthcare",71.9,"$11.24B","N/A","N/A","0.00%",REVIEW
+244,"KNX","Knight-Swift Transportation Holdings Inc.","NYSE","Industrials",69.28,"$11.15B","N/A","N/A","0.00%",REVIEW
+245,"BAJAJHCARE.NS","Bajaj Healthcare Limited","NSE","Healthcare",335.6,"$11.06B","N/A","N/A","0.00%",REVIEW
+246,"EIMCOELECO.NS","Eimco Elecon (India) Limited","NSE","Industrials",1810.7,"$10.42B","N/A","N/A","0.00%",REVIEW
+247,"NYT","New York Times Company (The) Common Stock","NYSE","Communication Services",64.77,"$10.28B","N/A","93.47%","1.58%",REVIEW
+248,"GRPLTD.NS","GRP Limited","NSE","Consumer Cyclical",1977.3,"$10.27B","N/A","N/A","0.00%",REVIEW
+249,"VICR","Vicor Corporation - Common Stock","NASDAQ","Technology",218.72,"$9.91B","N/A","N/A","0.00%",REVIEW
+250,"LGHL.NS","Laxmi Goldorna House Limited","NSE","Consumer Cyclical",201.98,"$9.77B","N/A","N/A","0.00%",REVIEW
+251,"AMBIKCO.NS","Ambika Cotton Mills Limited","NSE","Consumer Cyclical",1779.3,"$9.36B","N/A","84.75%","0.00%",REVIEW
+252,"RAJOOENG.NS","Rajoo Engineers Limited","NSE","Industrials",51.09,"$9.15B","N/A","N/A","0.00%",REVIEW
+253,"SYRE","Spyre Therapeutics, Inc. - Common Stock","NASDAQ","Healthcare",103.42,"$9.11B","N/A","87.28%","N/A",REVIEW
+254,"CONTROLPR.NS","Control Print Limited","NSE","Industrials",572.65,"$9.11B","N/A","N/A","0.00%",REVIEW
+255,"BHAGERIA.NS","Bhageria Industries Limited","NSE","Basic Materials",212.24,"$9.03B","N/A","N/A","0.00%",REVIEW
+256,"SVLL.NS","Shree Vasu Logistics Limited","NSE","Industrials",764.1,"$8.88B","N/A","N/A","N/A",REVIEW
+257,"REXR","Rexford Industrial Realty, Inc. Common Stock","NYSE","Real Estate",36.5,"$8.27B","N/A","N/A","0.00%",REVIEW
+258,"ASAL.NS","Automotive Stampings and Assemblies Limited","NSE","Consumer Cyclical",507.3,"$8.07B","N/A","N/A","0.00%",REVIEW
+259,"GEECEE.NS","GeeCee Ventures Limited","NSE","Real Estate",359.55,"$8.05B","N/A","84.53%","0.00%",REVIEW
+260,"LOKESHMACH.NS","Lokesh Machines Limited","NSE","Industrials",338.1,"$7.72B","N/A","N/A","0.00%",REVIEW
+261,"S","SentinelOne, Inc. Class A Common Stock","NYSE","Technology",20.76,"$7.67B","N/A","93.50%","2.47%",REVIEW
+262,"SOUTHWEST.NS","South West Pinnacle Exploration Limited","NSE","Energy",234.68,"$7.64B","N/A","N/A","N/A",REVIEW
+263,"DBOL.NS","Dhampur Bio Organics Limited","NSE","Consumer Defensive",111.85,"$7.54B","N/A","N/A","0.00%",REVIEW
+264,"POOL","Pool Corporation - Common Stock","NASDAQ","Industrials",201.08,"$7.28B","N/A","N/A","0.00%",REVIEW
+265,"PREMIERPOL.NS","Premier Polyfilm Limited","NSE","Basic Materials",72.74,"$7.28B","N/A","N/A","0.00%",REVIEW
+266,"SLAB","Silicon Laboratories, Inc. - Common Stock","NASDAQ","Technology",218.47,"$7.20B","N/A","69.75%","1.70%",REVIEW
+267,"CHEMBONDCH.NS","Chembond Chemicals Limited","NSE","Basic Materials",229.11,"$7.04B","N/A","N/A","0.00%",REVIEW
+268,"STCINDIA.NS","The State Trading Corporation of India Limited","NSE","Industrials",119.57,"$6.99B","N/A","N/A","N/A",REVIEW
+269,"GTLB","GitLab Inc. - Class A Common Stock","NASDAQ","Technology",35.68,"$6.86B","N/A","80.34%","4.52%",REVIEW
+270,"EMAMIPAP.NS","Emami Paper Mills Limited","NSE","Basic Materials",112,"$6.80B","N/A","N/A","0.00%",REVIEW
+271,"UNIENTER.NS","Uniphos Enterprises Limited","NSE","Basic Materials",96.93,"$6.77B","N/A","99.42%","N/A",REVIEW
+272,"KSOLVES.NS","Ksolves India Limited","NSE","Technology",279.75,"$6.53B","N/A","N/A","0.00%",REVIEW
+273,"WEX","WEX Inc. common stock","NYSE","Technology",189.54,"$6.44B","N/A","N/A","0.00%",REVIEW
+274,"JAN","Janus Living, Inc. Class A-1 Common Stock","NYSE","Real Estate",29.69,"$6.39B","N/A","76.42%","0.00%",REVIEW
+275,"ONWARDTEC.NS","Onward Technologies Limited","NSE","Technology",281.55,"$6.27B","N/A","N/A","0.00%",REVIEW
+276,"TREL.NS","Transindia Real Estate Limited","NSE","Real Estate",24.09,"$6.08B","N/A","99.90%","N/A",REVIEW
+277,"BYD","Boyd Gaming Corporation Common Stock","NYSE","Consumer Cyclical",84.32,"$5.93B","N/A","N/A","0.00%",REVIEW
+278,"ACI","Archean Chemical Industries Limited","NYSE","Consumer Defensive",11.85,"$5.91B","N/A","N/A","0.00%",REVIEW
+279,"GTPL.NS","GTPL Hathway Limited","NSE","Communication Services",59.91,"$5.91B","N/A","N/A","0.00%",REVIEW
+280,"SON","Sonoco Products Company Common Stock","NYSE","Consumer Cyclical",57.07,"$5.71B","N/A","N/A","0.00%",REVIEW
+281,"PECO","Phillips Edison & Company, Inc. - Common Stock","NASDAQ","Real Estate",40.72,"$5.65B","N/A","N/A","0.00%",REVIEW
+282,"MUNJALSHOW.NS","Munjal Showa Limited","NSE","Consumer Cyclical",137.17,"$5.40B","N/A","99.89%","0.00%",REVIEW
+283,"PLASTIBLEN.NS","Plastiblends India Limited","NSE","Basic Materials",190.01,"$5.32B","N/A","N/A","0.00%",REVIEW
+284,"GLOBAL.NS","Global Education Limited","NSE","Consumer Defensive",104.01,"$5.10B","N/A","96.59%","0.00%",REVIEW
+285,"OSWALAGRO.NS","Oswal Agro Mills Limited","NSE","Real Estate",41.06,"$5.09B","N/A","92.56%","0.00%",REVIEW
+286,"KHAICHEM.NS","Khaitan Chemicals & Fertilizers Limited","NSE","Basic Materials",52.68,"$4.96B","N/A","N/A","0.00%",REVIEW
+287,"MAZDA.NS","Mazda Limited","NSE","Industrials",227.23,"$4.90B","N/A","97.86%","0.00%",REVIEW
+288,"DICIND.NS","DIC India Limited","NSE","Basic Materials",524.4,"$4.69B","N/A","N/A","0.00%",REVIEW
+289,"DENORA.NS","De Nora India Limited","NSE","Industrials",890,"$4.64B","N/A","89.39%","0.00%",REVIEW
+290,"MANE","Veradermics, Incorporated Common Stock","NYSE","Healthcare",108.65,"$4.55B","N/A","57.62%","N/A",REVIEW
+291,"RAMAPHO.NS","Rama Phosphates Limited","NSE","Basic Materials",124.47,"$4.34B","N/A","N/A","0.00%",REVIEW
+292,"RHI","Robert Half Inc. Common Stock","NYSE","Industrials",40.68,"$4.31B","N/A","N/A","0.00%",REVIEW
+293,"NDLVENTURE.NS","NDL Ventures Limited","NSE","Communication Services",127.31,"$4.31B","N/A","91.51%","0.00%",REVIEW
+294,"SLG","SL Green Realty Corp Common Stock","NYSE","Real Estate",54.52,"$4.28B","N/A","N/A","0.00%",REVIEW
+295,"SKYW","SkyWest, Inc. - Common Stock","NASDAQ","Industrials",113.44,"$4.26B","N/A","N/A","0.00%",REVIEW
+296,"GPGI","GPGI, Inc. Class A Common Stock","NYSE","Industrials",14.99,"$4.11B","N/A","99.81%","8.33%",REVIEW
+297,"SURAJLTD.NS","Suraj Limited","NSE","Basic Materials",217.26,"$4.09B","N/A","N/A","N/A",REVIEW
+298,"VKTX","Viking Therapeutics, Inc. - Common Stock","NASDAQ","Healthcare",33.3,"$3.98B","N/A","80.58%","N/A",REVIEW
+299,"CALM","Cal-Maine Foods, Inc. - Common Stock","NASDAQ","Consumer Defensive",85.67,"$3.88B","N/A","87.51%","1.69%",REVIEW
+300,"CPEDU.NS","Career Point Edutech Limited","NSE","Consumer Defensive",210.6,"$3.87B","N/A","93.93%","N/A",REVIEW
+301,"QS","QuantumScape Corporation - Common Stock","NASDAQ","Consumer Cyclical",5.53,"$3.71B","N/A","N/A","N/A",REVIEW
+302,"POWI","Power Integrations, Inc. - Common Stock","NASDAQ","Technology",58.98,"$3.51B","N/A","91.77%","0.00%",REVIEW
+303,"ASHIMASYN.NS","Ashima Limited","NSE","Real Estate",18.16,"$3.43B","N/A","N/A","0.00%",REVIEW
+304,"GOACARBON.NS","Goa Carbon Limited","NSE","Basic Materials",384.35,"$3.42B","N/A","N/A","0.00%",REVIEW
+305,"PAKKA.NS","PAKKA LIMITED","NSE","Basic Materials",72.84,"$3.39B","N/A","N/A","0.00%",REVIEW
+306,"VARDHACRLC.NS","Vardhman Acrylics Limited","NSE","Consumer Cyclical",45.74,"$3.37B","N/A","99.06%","N/A",REVIEW
+307,"AAP","Advance Auto Parts Inc.","NYSE","Consumer Cyclical",59.55,"$3.34B","N/A","N/A","0.00%",REVIEW
+308,"KN","Knowles Corporation Common Stock","NYSE","Technology",39.39,"$3.29B","N/A","N/A","0.00%",REVIEW
+309,"NURECA.NS","Nureca Limited","NSE","Healthcare",343.95,"$3.24B","N/A","N/A","0.00%",REVIEW
+310,"DX","Dynex Capital, Inc. Common Stock","NYSE","Real Estate",12.85,"$3.15B","N/A","N/A","0.00%",REVIEW
+311,"GENUSPAPER.NS","Genus Paper & Boards Limited","NSE","Basic Materials",12.65,"$3.14B","N/A","N/A","0.01%",REVIEW
+312,"TAKE.NS","Take Solutions Limited","NSE","Healthcare",22.21,"$3.03B","N/A","99.28%","N/A",REVIEW
+313,"MAHEPC.NS","Mahindra EPC Irrigation Limited","NSE","Industrials",107.61,"$3.00B","N/A","N/A","0.00%",REVIEW
+314,"TR","Tootsie Roll Industries, Inc. Common Stock","NYSE","Consumer Defensive",39.75,"$2.97B","N/A","N/A","0.00%",REVIEW
+315,"COLM","Columbia Sportswear Company - Common Stock","NASDAQ","Consumer Cyclical",57.2,"$2.92B","N/A","N/A","0.00%",REVIEW
+316,"PONNIERODE.NS","Ponni Sugars (Erode) Limited","NSE","Consumer Defensive",323.2,"$2.84B","N/A","99.73%","0.00%",REVIEW
+317,"HOG","Harley-Davidson, Inc. Common Stock","NYSE","Consumer Cyclical",25.68,"$2.78B","N/A","N/A","0.00%",REVIEW
+318,"MAN","ManpowerGroup Common Stock","NYSE","Industrials",55.34,"$2.62B","N/A","N/A","0.00%",REVIEW
+319,"BTTL.NS","Bhilwara Technical Textiles Limited","NSE","Consumer Cyclical",46.61,"$2.58B","N/A","98.88%","0.00%",REVIEW
+320,"TMC","TMC the metals company Inc. - Common Stock","NASDAQ","Basic Materials",4.12,"$2.48B","N/A","35.26%","N/A",REVIEW
+321,"FCSSOFT.NS","FCS Software Solutions Limited","NSE","Technology",1.47,"$2.46B","N/A","90.57%","0.00%",REVIEW
+322,"GICL.NS","Globe International Carriers Limited","NSE","Industrials",19,"$2.43B","N/A","N/A","0.00%",REVIEW
+323,"CHEMBOND.NS","Chembond Material Technologies Limited","NSE","Basic Materials",171.82,"$2.40B","N/A","N/A","0.00%",REVIEW
+324,"RADIOCITY.NS","Music Broadcast Limited","NSE","Communication Services",6.9,"$2.38B","N/A","N/A","0.00%",REVIEW
+325,"MLYS","Mineralys Therapeutics, Inc. - Common Stock","NASDAQ","Healthcare",26.99,"$2.38B","N/A","82.73%","N/A",REVIEW
+326,"SETCO.NS","Setco Automotive Limited","NSE","Consumer Cyclical",17.75,"$2.36B","N/A","N/A","0.00%",REVIEW
+327,"MBLY","Mobileye Global Inc. - Class A Common Stock","NASDAQ","Consumer Cyclical",8.42,"$2.24B","N/A","85.17%","0.00%",REVIEW
+328,"ADMA","ADMA Biologics, Inc.","NASDAQ","Healthcare",9.26,"$2.19B","100.00%","N/A","0.21%",REVIEW
+329,"BVC","BitVentures Limited - Ordinary Share","NASDAQ","Technology",10.8,"$2.16B","N/A","53.44%","0.00%",REVIEW
+330,"SONAMLTD.NS","SONAM LIMITED","NSE","Consumer Cyclical",54.57,"$2.11B","N/A","N/A","N/A",REVIEW
+331,"NECLIFE.NS","Nectar Lifesciences Limited","NSE","Healthcare",10.61,"$2.04B","N/A","81.96%","0.00%",REVIEW
+332,"JMA.NS","Jullundur Motor Agency (Delhi) Limited","NSE","Consumer Cyclical",89.47,"$2.00B","N/A","96.63%","0.00%",REVIEW
+333,"PSNY","Polestar Automotive Holding UK Limited - Class A ADS","NASDAQ","Consumer Cyclical",13.9,"$1.98B","N/A","N/A","0.00%",REVIEW
+334,"PILITA.NS","PIL ITALICA LIFESTYLE LIMITED","NSE","Consumer Cyclical",8.56,"$1.97B","N/A","N/A","0.00%",REVIEW
+335,"ARVEE.NS","Arvee Laboratories (India) Limited","NSE","Basic Materials",158.55,"$1.95B","N/A","N/A","0.00%",REVIEW
+336,"TAINWALCHM.NS","Tainwala Chemical and Plastic (I) Limited","NSE","Basic Materials",220.58,"$1.90B","N/A","99.68%","N/A",REVIEW
+337,"WKC","World Kinect Corporation Common Stock","NYSE","Energy",37.23,"$1.88B","N/A","N/A","0.00%",REVIEW
+338,"ALPHAGEO.NS","Alphageo (India) Limited","NSE","Energy",247.68,"$1.81B","N/A","74.86%","0.00%",REVIEW
+339,"RMIX","Suncrete, Inc. - Class A Common Stock","NASDAQ","Basic Materials",18.27,"$1.76B","N/A","N/A","0.00%",REVIEW
+340,"UMIYA-MRO.NS","UMIYA BUILDCON LIMITED","NSE","Real Estate",91.38,"$1.68B","N/A","N/A","N/A",REVIEW
+341,"AMJLAND.NS","Amj Land Holdings Limited","NSE","Real Estate",39.26,"$1.67B","N/A","99.17%","0.00%",REVIEW
+342,"MLKN","MillerKnoll, Inc. - Common Stock","NASDAQ","Consumer Cyclical",23.68,"$1.63B","N/A","N/A","0.00%",REVIEW
+343,"MCL.NS","M TEK COPPER LIMITED","NSE","Basic Materials",55.32,"$1.58B","N/A","N/A","0.00%",REVIEW
+344,"FBRX","Forte Biosciences, Inc.  - Common Stock","NASDAQ","Healthcare",76.61,"$1.57B","N/A","13.39%","N/A",REVIEW
+345,"OMDA","Omada Health, Inc. - Common Stock","NASDAQ","Healthcare",19.54,"$1.47B","N/A","30.06%","2.34%",REVIEW
+346,"CORALFINAC.NS","Coral India Finance & Housing Limited","NSE","Real Estate",33.2,"$1.34B","N/A","98.33%","0.00%",REVIEW
+347,"YSWY","Yesway, Inc. - Class A Common Stock","NASDAQ","Consumer Defensive",21.97,"$1.34B","100.00%","N/A","0.00%",REVIEW
+348,"JOCIL.NS","Jocil Limited","NSE","Basic Materials",147,"$1.34B","N/A","95.33%","0.00%",REVIEW
+349,"ORC","Orchid Island Capital, Inc. Common Stock","NYSE","Real Estate",6.42,"$1.32B","N/A","N/A","0.00%",REVIEW
+350,"CALSOFT.NS","California Software Company Limited","NSE","Technology",21.66,"$1.31B","N/A","N/A","0.00%",REVIEW
+351,"SURANASOL.NS","Surana Solar Limited","NSE","Technology",26.22,"$1.29B","N/A","N/A","N/A",REVIEW
+352,"LADR","Ladder Capital Corp Class A Common Stock","NYSE","Real Estate",9.54,"$1.26B","N/A","N/A","0.00%",REVIEW
+353,"AAATECH.NS","AAA Technologies Limited","NSE","Technology",89.23,"$1.26B","N/A","88.15%","0.00%",REVIEW
+354,"PAR.NS","Par Drugs And Chemicals Limited","NSE","Healthcare",98.89,"$1.24B","N/A","67.62%","0.00%",REVIEW
+355,"ELE","Elemental Royalty Corporation - Common Stock","NASDAQ","Basic Materials",17.8,"$1.23B","N/A","N/A","0.88%",REVIEW
+356,"FELDVR.NS","Future Enterprises Limited","NSE","Consumer Cyclical",2.33,"$1.21B","N/A","N/A","0.00%",REVIEW
+357,"MRTN","Marten Transport, Ltd. - Common Stock","NASDAQ","Industrials",14.86,"$1.20B","N/A","N/A","0.00%",REVIEW
+358,"GANGESSECU.NS","Ganges Securities Limited","NSE","Consumer Defensive",120.87,"$1.18B","N/A","99.83%","0.00%",REVIEW
+359,"IRMD","iRadimed Corporation - Common Stock","NASDAQ","Healthcare",91.21,"$1.16B","N/A","50.72%","0.00%",REVIEW
+360,"ABAN.NS","Aban Offshore Limited","NSE","Energy",17.39,"$1.14B","N/A","N/A","0.00%",REVIEW
+361,"ARTNIRMAN.NS","Art Nirman Limited","NSE","Real Estate",40.58,"$1.04B","N/A","N/A","0.00%",REVIEW
+362,"MOTOGENFIN.NS","The Motor & General Finance Limited","NSE","Real Estate",25.99,"$1.02B","N/A","49.07%","0.00%",REVIEW
+363,"RAJSREESUG.NS","Rajshree Sugars & Chemicals Limited","NSE","Consumer Defensive",30.84,"$1.02B","N/A","N/A","0.00%",REVIEW
+364,"AIIR","AIR Global PLC","NASDAQ","Consumer Defensive",6.31,"$996.00M","N/A","N/A","N/A",REVIEW
+365,"RAJMET.NS","Rajnandini Metal Limited","NSE","Basic Materials",3.3,"$923.44M","N/A","N/A","0.00%",REVIEW
+366,"GLOBE.NS","GLOBE ENTERPRISES (INDIA) LIMITED","NSE","Consumer Cyclical",2.05,"$918.85M","N/A","N/A","0.00%",REVIEW
+367,"AVR","Anteris Technologies Global Corp.","NASDAQ","Healthcare",8.05,"$897.01M","1.32%","N/A","0.00%",REVIEW
+368,"MOKSH.NS","Moksh Ornaments Limited","NSE","Consumer Cyclical",10.57,"$895.28M","N/A","N/A","0.00%",REVIEW
+369,"TALK","Talkspace, Inc. - Common Stock","NASDAQ","Healthcare",5.21,"$876.93M","N/A","76.94%","1.53%",REVIEW
+370,"GRADIENTE.NS","Gradiente Infotainment Limited","NSE","Communication Services",2.65,"$854.27M","N/A","N/A","0.00%",REVIEW
+371,"MNTN","MNTN, Inc. Class A Common Stock","NYSE","Technology",10.99,"$853.50M","N/A","42.98%","0.00%",REVIEW
+372,"LPDC.NS","Landmark Property Development Company Limited","NSE","Real Estate",6.37,"$851.81M","N/A","97.68%","0.00%",REVIEW
+373,"PARASPETRO.NS","Paras Petrofils Limited","NSE","Consumer Cyclical",2.62,"$832.21M","N/A","100.00%","0.00%",REVIEW
+374,"SCHL","Scholastic Corporation - Common Stock","NASDAQ","Communication Services",39.9,"$810.52M","N/A","N/A","0.00%",REVIEW
+375,"CASS","Cass Information Systems, Inc - Common Stock","NASDAQ","Industrials",57.23,"$736.66M","N/A","N/A","0.00%",REVIEW
+376,"IL&FSTRANS.NS","IL&FS Transportation Networks Limited","NSE","Industrials",2.13,"$713.84M","N/A","N/A","0.00%",REVIEW
+377,"ODIGMA.NS","Odigma Consultancy Solutions Limited","NSE","Communication Services",22.98,"$707.07M","N/A","98.70%","0.00%",REVIEW
+378,"AGNT","AGNT, Inc","NASDAQ","Real Estate",4.05,"$701.66M","N/A","73.85%","0.00%",REVIEW
+379,"PARSVNATH.NS","Parsvnath Developers Limited","NSE","Real Estate",1.71,"$691.94M","N/A","N/A","0.00%",REVIEW
+380,"ALKALI.NS","Alkali Metals Limited","NSE","Basic Materials",70.62,"$690.78M","N/A","N/A","0.00%",REVIEW
+381,"HELP","Cybin Inc. - Common Stock","NASDAQ","Healthcare",11.1,"$642.77M","N/A","37.39%","N/A",REVIEW
+382,"NVCT","Nuvectis Pharma, Inc. - Common Stock","NASDAQ","Healthcare",18.83,"$612.37M","N/A","1.06%","N/A",REVIEW
+383,"MCFT","MasterCraft Boat Holdings, Inc. - Common Stock","NASDAQ","Consumer Cyclical",24.39,"$584.36M","N/A","72.86%","0.97%",REVIEW
+384,"ANSALAPI.NS","Ansal Properties & Infrastructure Limited","NSE","Real Estate",3.45,"$561.94M","N/A","N/A","0.00%",REVIEW
+385,"ICDSLTD.NS","ICDS Limited","NSE","Real Estate",43.52,"$530.19M","N/A","98.17%","N/A",REVIEW
+386,"JAIPURKURT.NS","Nandani Creation Limited","NSE","Consumer Cyclical",27.3,"$488.68M","N/A","N/A","0.00%",REVIEW
+387,"PRITI.NS","Priti International Limited","NSE","Consumer Cyclical",37.09,"$487.26M","N/A","99.33%","0.00%",REVIEW
+388,"COUNCODOS.NS","Country Condo's Limited","NSE","Real Estate",5.8,"$468.69M","N/A","98.24%","0.00%",REVIEW
+389,"MAGN","Magnera Corporation Common Stock","NYSE","Consumer Defensive",12.53,"$443.58M","N/A","N/A","0.00%",REVIEW
+390,"SAGARDEEP.NS","Sagardeep Alloys Limited","NSE","Basic Materials",25.2,"$421.15M","N/A","N/A","0.00%",REVIEW
+391,"TMCR","The Metals Royalty Company Inc. - Common Stock","NASDAQ","Basic Materials",5.66,"$383.17M","N/A","32.06%","N/A",REVIEW
+392,"FENC","Fennec Pharmaceuticals Inc. - Common Stock","NASDAQ","Healthcare",10.52,"$382.45M","N/A","44.06%","2.24%",REVIEW
+393,"IKT","Inhibikase Therapeutics, Inc. - Common Stock","NASDAQ","Healthcare",2.41,"$382.37M","N/A","71.40%","N/A",REVIEW
+394,"PALI","Palisade Bio, Inc. - Common Stock","NASDAQ","Healthcare",2.09,"$353.64M","N/A","0.52%","N/A",REVIEW
+395,"VOXR","Vox Royalty Corp. - common stock","NASDAQ","Basic Materials",4.97,"$348.30M","N/A","88.87%","0.22%",REVIEW
+396,"KAUSHALYA.NS","Kaushalya Infrastructure Development Corporation Limited","NSE","Industrials",923.9,"$325.53M","N/A","99.81%","0.30%",REVIEW
+397,"GTECJAINX.NS","G-TEC JAINX EDUCATION LIMITED","NSE","Consumer Defensive",29,"$315.76M","N/A","N/A","0.00%",REVIEW
+398,"AVXL","Anavex Life Sciences Corp.","NASDAQ","Healthcare",3.2,"$311.84M","N/A","0.93%","N/A",REVIEW
+399,"RELL","Richardson Electronics, Ltd. - Common Stock","NASDAQ","Technology",20.74,"$295.15M","N/A","N/A","0.00%",REVIEW
+400,"LEXUS.NS","Lexus Granito (India) Limited","NSE","Industrials",14.55,"$292.56M","N/A","N/A","0.00%",REVIEW
+401,"LTBR","Lightbridge Corporation - Common Stock","NASDAQ","Industrials",9.15,"$290.02M","N/A","1.49%","N/A",REVIEW
+402,"TTRX","Turn Therapeutics Inc. - Common Stock","NASDAQ","Healthcare",9.61,"$288.94M","N/A","N/A","N/A",REVIEW
+403,"PEARLPOLY.NS","Pearl Polymers Limited","NSE","Consumer Cyclical",16.67,"$277.94M","N/A","98.99%","0.00%",REVIEW
+404,"ENHA","Enhanced Group Inc. Class A Common Stock","NYSE","Consumer Defensive",2.68,"$276.61M","N/A","61.31%","40.61%",REVIEW
+405,"WHWK","Whitehawk Therapeutics, Inc. - Common Stock","NASDAQ","Healthcare",4.7,"$262.81M","N/A","72.66%","N/A",REVIEW
+406,"FACT","Fertilizers and Chemicals Travancore Limited","NASDAQ","Unknown",10.66,"$259.27M","N/A","99.78%","N/A",REVIEW
+407,"LIBAS.NS","Libas Consumer Products Limited","NSE","Consumer Cyclical",9.75,"$253.17M","N/A","N/A","0.00%",REVIEW
+408,"ARSHIYA.NS","Arshiya Limited","NSE","Industrials",0.97,"$247.67M","N/A","N/A","0.00%",REVIEW
+409,"LAXMICOT.NS","Laxmi Cotspin Limited","NSE","Consumer Cyclical",14.16,"$247.10M","N/A","N/A","0.00%",REVIEW
+410,"FLFL.NS","Future Lifestyle Fashions Limited","NSE","Consumer Cyclical",1.22,"$242.13M","N/A","N/A","0.00%",REVIEW
+411,"LVWR","LiveWire Group, Inc. Common Stock","NYSE","Consumer Cyclical",1.11,"$237.52M","N/A","N/A","0.00%",REVIEW
+412,"FC","Franklin Covey Company Common Stock","NYSE","Consumer Defensive",21.86,"$234.69M","N/A","93.95%","0.04%",REVIEW
+413,"GLSI","Greenwich LifeSciences, Inc. - Common stock","NASDAQ","Healthcare",14.24,"$231.40M","N/A","N/A","N/A",REVIEW
+414,"UTMD","Utah Medical Products, Inc. - Common Stock","NASDAQ","Healthcare",69.97,"$229.25M","N/A","N/A","0.00%",REVIEW
+415,"SHRENIK.NS","Shrenik Limited","NSE","Basic Materials",0.34,"$214.20M","N/A","N/A","N/A",REVIEW
+416,"ANKITMETAL.NS","Ankit Metal & Power Limited","NSE","Basic Materials",1.6,"$213.08M","N/A","N/A","0.00%",REVIEW
+417,"ANTX","AN2 Therapeutics, Inc.","NASDAQ","Healthcare",5.84,"$207.81M","N/A","2.52%","N/A",REVIEW
+418,"MSLE","Satellos Bioscience Inc. - Common Stock","NASDAQ","Healthcare",10.07,"$203.10M","N/A","75.15%","N/A",REVIEW
+419,"TORO","Toro Corp. - Common stock","NASDAQ","Energy",5.33,"$192.15M","N/A","74.77%","0.00%",REVIEW
+420,"FEL.NS","Future Enterprises Limited","NSE","Consumer Cyclical",0.38,"$187.84M","N/A","N/A","0.00%",REVIEW
+421,"HQI","HireQuest, Inc. - Common Stock","NASDAQ","Industrials",12.75,"$186.73M","N/A","98.89%","1.55%",REVIEW
+422,"NGEN","NervGen Pharma Corp. - Common stock","NASDAQ","Healthcare",1.72,"$182.50M","N/A","N/A","N/A",REVIEW
+423,"TAYD","Taylor Devices, Inc. - Common Stock","NASDAQ","Industrials",53.13,"$170.61M","N/A","96.65%","0.00%",REVIEW
+424,"SITC","SITE Centers Corp. Common Stock","NYSE","Real Estate",3.13,"$155.33M","N/A","51.87%","9.15%",REVIEW
+425,"INDP","Indaptus Therapeutics, Inc. - Common Stock","NASDAQ","Healthcare",1.25,"$154.57M","N/A","31.33%","N/A",REVIEW
+426,"HEADSUP.NS","Heads UP Ventures Limited","NSE","Consumer Cyclical",7.04,"$151.49M","N/A","97.71%","0.00%",REVIEW
+427,"RGP","Resources Connection, Inc. - Common Stock","NASDAQ","Industrials",4.2,"$146.56M","N/A","N/A","0.00%",REVIEW
+428,"CNTN","Canton Strategic Holdings, Inc. - Common Stock","NASDAQ","Healthcare",1.9,"$142.29M","N/A","92.90%","N/A",REVIEW
+429,"VTVT","vTv Therapeutics Inc. - Class A Common Stock","NASDAQ","Healthcare",34.61,"$134.49M","N/A","0.74%","2.27%",REVIEW
+430,"ARENTERP.NS","Rajdarshan Industries Limited","NSE","Basic Materials",39.49,"$127.58M","N/A","99.50%","0.00%",REVIEW
+431,"NIRAJISPAT.NS","Niraj Ispat Industries Limited","NSE","Consumer Cyclical",216,"$126.60M","N/A","N/A","N/A",REVIEW
+432,"ANTGRAPHIC.NS","Antarctica Limited","NSE","Consumer Cyclical",0.75,"$114.71M","N/A","N/A","0.00%",REVIEW
+433,"COYA","Coya Therapeutics, Inc. - Common Stock","NASDAQ","Healthcare",4.55,"$108.84M","N/A","4.78%","0.00%",REVIEW
+434,"MEP.NS","MEP Infrastructure Developers Limited","NSE","Industrials",0.55,"$108.23M","N/A","N/A","0.00%",REVIEW
+435,"LAKPRE.NS","Lakshmi Precision Screws Limited","NSE","Industrials",5.05,"$107.31M","N/A","N/A","0.00%",REVIEW
+436,"GLND","Greenland Energy Company - Common Stock","NASDAQ","Energy",2.21,"$100.80M","N/A","56.00%","N/A",REVIEW
+437,"PLYX","Polaryx Therapeutics, Inc. - Common Stock","NASDAQ","Healthcare",2.22,"$98.24M","N/A","12.05%","N/A",REVIEW
+438,"COMPINFO.NS","Compuage Infocom Limited","NSE","Technology",1.1,"$93.43M","N/A","N/A","0.00%",REVIEW
+439,"ANVS","Annovis Bio, Inc. Common Stock","NYSE","Healthcare",1.87,"$79.13M","N/A","12.46%","N/A",REVIEW
+440,"SOTK","Sono-Tek Corporation - Common Stock","NASDAQ","Technology",5.42,"$78.74M","N/A","65.27%","2.02%",REVIEW
+441,"IDN","Intellicheck, Inc. - Common Stock","NASDAQ","Technology",3.79,"$76.75M","N/A","62.88%","1.70%",REVIEW
+442,"HMR","Heidmar Maritime Holdings Corp. - Common Stock","NASDAQ","Industrials",1.22,"$75.58M","N/A","63.81%","0.00%",REVIEW
+443,"ORTEL.NS","Ortel Communications Limited","NSE","Communication Services",2.03,"$72.22M","N/A","N/A","0.00%",REVIEW
+444,"RSSS","Research Solutions, Inc - Common Stock","NASDAQ","Technology",2.18,"$71.91M","N/A","73.77%","0.00%",REVIEW
+445,"XBIT","XBiotech Inc. - Common Stock","NASDAQ","Healthcare",2.28,"$69.66M","N/A","17.43%","N/A",REVIEW
+446,"HYFT","MindWalk Holdings Corp. - Common Stock","NASDAQ","Healthcare",1.28,"$64.61M","N/A","N/A","0.00%",REVIEW
+447,"CVV","CVD Equipment Corporation - Common Stock","NASDAQ","Industrials",8.19,"$54.80M","N/A","68.73%","3.85%",REVIEW
+448,"INKT","MiNK Therapeutics, Inc. - Common Stock","NASDAQ","Healthcare",11,"$53.80M","N/A","8.20%","N/A",REVIEW
+449,"TENX","Tenax Therapeutics, Inc. - Common Stock","NASDAQ","Healthcare",13.31,"$52.95M","N/A","3.59%","N/A",REVIEW
+450,"SETUINFRA.NS","Setubandhan Infrastructure Limited","NSE","Industrials",0.4,"$52.85M","N/A","N/A","0.00%",REVIEW
+451,"SKYA","SkyAI, Inc. - Common Stock","NASDAQ","Technology",1.17,"$51.84M","N/A","93.19%","0.00%",REVIEW
+452,"FLNA","Filana Therapeutics, Inc. - Common Stock","NASDAQ","Healthcare",0.95,"$48.47M","N/A","20.11%","N/A",REVIEW
+453,"LOAN","Manhattan Bridge Capital, Inc - Common Stock","NASDAQ","Real Estate",4.12,"$47.32M","N/A","N/A","0.00%",REVIEW
+454,"ACCL","Acco Group Holdings Limited","NASDAQ","Industrials",2.88,"$41.43M","5.47%","N/A","0.00%",REVIEW
+455,"HODO","House of Doge Inc. - Common Stock","NASDAQ","Technology",0.57,"$37.35M","N/A","N/A","N/A",REVIEW
+456,"GRCE","Grace Therapeutics, Inc. - Common Stock","NASDAQ","Healthcare",2.12,"$34.01M","N/A","74.53%","N/A",REVIEW
+457,"MIRA","MIRA Pharmaceuticals, Inc. - Common Stock","NASDAQ","Healthcare",0.68,"$32.36M","N/A","49.12%","N/A",REVIEW
+458,"LITS","Lite Strategy, Inc. - Common Stock","NASDAQ","Healthcare",0.93,"$31.58M","N/A","86.95%","N/A",REVIEW
+459,"ESLA","Estrella Immunopharma, Inc. - Common Stock","NASDAQ","Healthcare",0.75,"$30.86M","N/A","47.30%","N/A",REVIEW
+460,"BCTX","BriaCell Therapeutics Corp.","NASDAQ","Healthcare",3.5,"$29.75M","N/A","15.76%","N/A",REVIEW
+461,"BEAT","HeartBeam, Inc.","NASDAQ","Healthcare",0.5,"$27.89M","N/A","48.10%","N/A",REVIEW
+462,"ELSE","Electro-Sensors, Inc. - Common Stock","NASDAQ","Technology",7.74,"$27.34M","N/A","33.02%","2.87%",REVIEW
+463,"CRVO","CervoMed Inc. - Common Stock","NASDAQ","Healthcare",2.81,"$25.90M","N/A","47.45%","7.06%",REVIEW
+464,"TAOX","Tao Synergies Inc. - Common Stock","NASDAQ","Technology",3.44,"$25.85M","N/A","88.26%","9.13%",REVIEW
+465,"ACTU","Actuate Therapeutics, Inc. Common stock","NASDAQ","Healthcare",1.13,"$24.17M","N/A","8.72%","N/A",REVIEW
+466,"ATOS","Atossa Therapeutics, Inc.","NASDAQ","Healthcare",2.39,"$24.04M","N/A","16.41%","N/A",REVIEW
+467,"QCLS","Q/C Technologies, Inc. - Common Stock","NASDAQ","Technology",2.8,"$22.38M","N/A","97.06%","N/A",REVIEW
+468,"BMR","Beamr Imaging Ltd. - Ordinary Share","NASDAQ","Technology",1.29,"$19.91M","N/A","76.18%","0.00%",REVIEW
+469,"RKTO","Rocket One Inc. - Common Stock","NASDAQ","Technology",0.79,"$19.66M","N/A","27.65%","N/A",REVIEW
+470,"MRKR","Marker Therapeutics, Inc. - Common Stock","NASDAQ","Healthcare",1.12,"$19.01M","N/A","14.45%","3.75%",REVIEW
+471,"LPCN","Lipocine Inc. - Common Stock","NASDAQ","Healthcare",2.13,"$17.66M","N/A","80.22%","1.49%",REVIEW
+472,"LEDS","SemiLEDS Corporation - Common Stock","NASDAQ","Technology",2.13,"$17.62M","N/A","N/A","0.00%",REVIEW
+473,"KTTA","Pasithea Therapeutics Corp. - Common Stock","NASDAQ","Healthcare",0.44,"$16.17M","N/A","10.57%","N/A",REVIEW
+474,"AIXC","AIxCrypto Holdings, Inc.","NASDAQ","Technology",0.78,"$16.06M","2.64%","N/A","7.04%",REVIEW
+475,"CYCN","Cyclerion Therapeutics, Inc. - Common Stock","NASDAQ","Healthcare",3.55,"$15.26M","N/A","66.81%","1.61%",REVIEW
+476,"ATCX","Atlas Critical Minerals Corporation","NASDAQ","N/A",2.65,"$14.49M","N/A","N/A","N/A",REVIEW
+477,"KALA","KALA BIO, Inc. - Common Stock","NASDAQ","Healthcare",0.74,"$14.47M","N/A","85.68%","N/A",REVIEW
+478,"PHIO","Phio Pharmaceuticals Corp. - Common Stock","NASDAQ","Healthcare",1.06,"$12.35M","N/A","2.19%","N/A",REVIEW
+479,"CABR","Caring Brands, Inc. - Common Stock","NASDAQ","Healthcare",1.56,"$12.18M","N/A","6.37%","0.00%",REVIEW
+480,"SVRN","OceanPal Inc. - Common Stock","NASDAQ","Industrials",6.15,"$12.04M","N/A","67.04%","0.00%",REVIEW
+481,"GTBP","GT Biopharma, Inc. - Common Stock","NASDAQ","Healthcare",0.3,"$11.82M","N/A","10.73%","N/A",REVIEW
+482,"MSAI","MultiSensor AI Holdings, Inc. - Common Stock","NASDAQ","Technology",5.11,"$10.80M","N/A","31.32%","9.60%",REVIEW
+483,"ADIL","Adial Pharmaceuticals, Inc.","NASDAQ","Healthcare",4.05,"$9.43M","N/A","12.30%","N/A",REVIEW
+484,"LSTA","Lisata Therapeutics, Inc. - Common Stock","NASDAQ","Healthcare",1.07,"$9.37M","N/A","7.11%","0.00%",REVIEW
+485,"GXAI","Gaxos.ai Inc. - Common Stock","NASDAQ","Communication Services",0.85,"$9.20M","N/A","90.43%","8.74%",REVIEW
+486,"PCSA","Processa Pharmaceuticals, Inc. - Common Stock","NASDAQ","Healthcare",2.3,"$8.95M","N/A","62.60%","N/A",REVIEW
+487,"LEXX","Lexaria Bioscience Corp. - Common Stock","NASDAQ","Healthcare",5.34,"$8.86M","N/A","N/A","0.00%",REVIEW
+488,"TRAW","Traws Pharma, Inc. - Common Stock","NASDAQ","Healthcare",0.54,"$8.33M","N/A","61.59%","0.00%",REVIEW
+489,"APRE","Aprea Therapeutics, Inc.","NASDAQ","Healthcare",0.62,"$8.30M","N/A","2.41%","1.09%",REVIEW
+490,"NXL","Nexalin Technology, Inc. - Common Stock","NASDAQ","Healthcare",0.34,"$8.14M","N/A","67.31%","0.23%",REVIEW
+491,"VS","Versus Systems Inc. - Common Stock","NASDAQ","Technology",1.31,"$8.01M","N/A","74.51%","0.00%",REVIEW
+492,"DTST","Data Storage Corporation - Common Stock","NASDAQ","Technology",3.16,"$7.62M","N/A","99.02%","34.15%",REVIEW
+493,"XBIO","Xenetic Biosciences, Inc. - Common Stock","NASDAQ","Healthcare",2.85,"$7.03M","N/A","7.10%","5.67%",REVIEW
+494,"ALZN","Alzamend Neuro, Inc.","NASDAQ","Healthcare",1.43,"$6.90M","N/A","65.82%","N/A",REVIEW
+495,"AMST","Amesite Inc.","NASDAQ","Technology",0.97,"$6.68M","N/A","57.07%","1.76%",REVIEW
+496,"ACXP","Acurx Pharmaceuticals, Inc.","NASDAQ","Healthcare",1.46,"$6.32M","N/A","2.99%","N/A",REVIEW
+497,"ENVB","Enveric Biosciences, Inc.  - Common Stock","NASDAQ","Healthcare",1.67,"$6.20M","N/A","11.10%","N/A",REVIEW
+498,"CVKD","Cadrenal Therapeutics, Inc. - Common Stock","NASDAQ","Healthcare",1.96,"$6.06M","N/A","19.35%","N/A",REVIEW
+499,"PMCB","PharmaCyte  Biotech, Inc. - Common Stock","NASDAQ","Healthcare",0.59,"$6.00M","N/A","63.91%","N/A",REVIEW
+500,"LUCY","Innovative Eyewear, Inc. - Common Stock","NASDAQ","Healthcare",0.72,"$5.99M","N/A","53.82%","0.00%",REVIEW
+501,"PULM","Pulmatrix, Inc. - Common Stock","NASDAQ","Healthcare",1.66,"$5.95M","N/A","26.07%","N/A",REVIEW
+502,"YDKG","Yueda Digital Holding - Class A Ordinary Share","NASDAQ","Communication Services",1.08,"$5.94M","N/A","99.68%","N/A",REVIEW
+503,"ACON","Aclarion, Inc.","NASDAQ","Healthcare",2.36,"$5.61M","N/A","7.88%","1.71%",REVIEW
+504,"TCRT","Alaunos Therapeutics, Inc. - Common Stock","NASDAQ","Healthcare",1.99,"$4.81M","N/A","81.20%","0.00%",REVIEW
+505,"SLE","Super League Enterprise, Inc. - Common Stock","NASDAQ","Communication Services",2.77,"$4.73M","N/A","78.31%","3.00%",REVIEW
+506,"MBIO","Mustang Bio, Inc. - Common Stock","NASDAQ","Healthcare",0.58,"$4.46M","N/A","1.95%","N/A",REVIEW
+507,"RNAZ","TransCode Therapeutics, Inc. - Common Stock","NASDAQ","Healthcare",4.27,"$4.32M","N/A","91.83%","N/A",REVIEW
+508,"SILO","Silo Pharma, Inc. - Common Stock","NASDAQ","Healthcare",4.67,"$4.31M","N/A","44.39%","2.15%",REVIEW
+509,"CSAI","Cloudastructure, Inc. - Class A Common Stock","NASDAQ","Technology",4.92,"$4.28M","N/A","26.05%","2.97%",REVIEW
+510,"DRMA","Dermata Therapeutics, Inc. - Common Stock","NASDAQ","Healthcare",1.17,"$4.26M","N/A","6.97%","N/A",REVIEW
+511,"YHC","LQR House Inc. - Common Stock","NASDAQ","Consumer Defensive",2,"$2.28M","N/A","85.17%","0.00%",REVIEW
+512,"GNPX","Genprex, Inc. - Common Stock","NASDAQ","Healthcare",4.44,"$2.10M","N/A","11.11%","N/A",REVIEW
+513,"DCOY","Decoy Therapeutics Inc. - Common Stock","NASDAQ","Healthcare",4.19,"$2.09M","N/A","7.15%","N/A",REVIEW
+514,"BBLG","Bone Biologics Corporation","NASDAQ","Healthcare",0.98,"$1.67M","N/A","9.02%","N/A",REVIEW
+515,"RBNE","Robin Energy Ltd. - Common Stock","NASDAQ","Energy",2.37,"$1.42M","N/A","68.09%","0.00%",REVIEW
+516,"RKDA","Arcadia Biosciences, Inc. - Common Stock","NASDAQ","Consumer Defensive",0.72,"$1.40M","N/A","82.08%","0.45%",REVIEW
+517,"GNLN","Greenlane Holdings, Inc. - Class A Common Stock","NASDAQ","Consumer Defensive",1.94,"$1.23M","N/A","76.31%","0.00%",REVIEW

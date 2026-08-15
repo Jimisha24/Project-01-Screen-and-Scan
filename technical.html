@@ -1,0 +1,802 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GlobalRadarPro - Institutional SMC Screener</title>
+  <style>
+    :root {
+      --bg-color: #0f172a;
+      --card-bg: #1e293b;
+      --text-color: #f8fafc;
+      --accent-color: #10b981;
+      --border-color: #334155;
+      --ote-color: #38bdf8;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      margin: 0;
+      padding: 24px;
+    }
+    .container { max-width: 1920px; margin: 0 auto; }
+    .header-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; flex-wrap: wrap; gap: 12px; }
+    .header-actions { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+    h1 { margin: 0; color: var(--accent-color); font-size: 1.8rem; }
+
+    .nav-btn {
+      background-color: #38bdf8;
+      color: #000;
+      font-weight: 700;
+      padding: 10px 16px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    .export-btn {
+      background-color: var(--accent-color);
+      color: #000;
+      font-weight: 700;
+      padding: 10px 16px;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+      font-size: 0.9rem;
+    }
+    .export-btn:hover { background-color: #059669; color: #fff; }
+
+    .refresh-trigger-btn {
+      background-color: #eab308;
+      color: #000;
+      font-weight: 700;
+      padding: 8px 14px;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+      font-size: 0.85rem;
+    }
+    .refresh-trigger-btn:hover { background-color: #ca8a04; color: #fff; }
+
+    .stop-trigger-btn {
+      background-color: #ef4444;
+      color: #fff;
+      font-weight: 700;
+      padding: 8px 14px;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+      font-size: 0.85rem;
+      margin-left: 8px;
+    }
+    .stop-trigger-btn:hover { background-color: #dc2626; }
+
+    .bottom-controls-bar {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-top: none;
+      padding: 12px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .progress-container {
+      width: 100%;
+      background-color: var(--bg-color);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      padding: 10px 14px;
+      display: none;
+      box-sizing: border-box;
+    }
+    .progress-bar-bg {
+      width: 100%;
+      height: 8px;
+      background-color: #334155;
+      border-radius: 4px;
+      overflow: hidden;
+      margin-top: 6px;
+    }
+    .progress-bar-fill {
+      height: 100%;
+      width: 0%;
+      background-color: #38bdf8;
+      transition: width 0.3s ease;
+    }
+
+    .filter-panel {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 16px;
+      align-items: end;
+    }
+    .form-group { display: flex; flex-direction: column; gap: 6px; }
+    label { font-size: 0.82rem; font-weight: 600; color: #94a3b8; }
+    input, select {
+      background-color: var(--bg-color);
+      border: 1px solid var(--border-color);
+      color: var(--text-color);
+      padding: 8px 12px;
+      border-radius: 4px;
+      font-size: 0.9rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: var(--card-bg);
+      border-radius: 8px 8px 0 0;
+      overflow: hidden;
+      border: 1px solid var(--border-color);
+    }
+    th, td {
+      padding: 10px 12px;
+      text-align: left;
+      border-bottom: 1px solid var(--border-color);
+      font-size: 0.85rem;
+      vertical-align: top;
+    }
+    th { 
+      background-color: #0f172a; 
+      color: var(--accent-color); 
+      font-weight: 600; 
+      cursor: pointer; 
+      user-select: none;
+      white-space: nowrap;
+    }
+    th:hover { background-color: #1e293b; color: #38bdf8; }
+    tr:hover { background-color: #26334d; }
+
+    .tf-row-item {
+      padding: 4px 0;
+      border-bottom: 1px dashed rgba(51, 65, 85, 0.5);
+    }
+    .tf-row-item:last-child { border-bottom: none; }
+
+    .badge {
+      display: inline-block;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.72rem;
+      font-weight: 700;
+    }
+    .badge-tf { background-color: rgba(56, 189, 248, 0.2); color: var(--ote-color); border: 1px solid var(--ote-color); }
+    .badge-fresh { background-color: rgba(34, 197, 94, 0.2); color: #22c55e; border: 1px solid #22c55e; font-size: 0.68rem; margin-left: 4px; }
+
+    .refresh-btn {
+      background-color: transparent;
+      border: 1px solid var(--border-color);
+      color: #38bdf8;
+      border-radius: 4px;
+      padding: 2px 6px;
+      font-size: 0.75rem;
+      cursor: pointer;
+      margin-left: 4px;
+    }
+    .refresh-btn:hover { background-color: #38bdf8; color: #000; }
+
+    .watchlist-btn {
+      background-color: transparent;
+      border: 1px solid var(--border-color);
+      color: #94a3b8;
+      border-radius: 4px;
+      padding: 2px 6px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      margin-left: 6px;
+      transition: all 0.2s ease;
+    }
+    .watchlist-btn:hover {
+      border-color: #eab308;
+      color: #eab308;
+    }
+    .watchlist-btn.active {
+      background-color: rgba(234, 179, 8, 0.2);
+      border-color: #eab308;
+      color: #eab308;
+      font-weight: bold;
+    }
+
+    .pagination-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-top: none;
+      padding: 12px 20px;
+      border-radius: 0 0 8px 8px;
+    }
+    button.pg-btn {
+      background-color: var(--accent-color);
+      color: #000;
+      font-weight: 600;
+      border: none;
+      padding: 8px 14px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button.pg-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="header-bar">
+    <h1>&#x1F3AF; Institutional SMC Order Block & FVG Screener</h1>
+    <div class="header-actions">
+      <button class="export-btn" onclick="exportToCSV()">&#x1F4E5; Export Screener CSV</button>
+      <a href="/" class="nav-btn">&#x1F48A; Financial Screener</a>
+      <a href="/prohibited.html" class="nav-btn" style="background-color:#ef4444; color:#fff;">&#x1F6AB; Prohibited Stocks</a>
+    </div>
+  </div>
+
+  <div class="filter-panel">
+    <div class="form-group">
+      <label for="searchInput">Search Ticker / Company</label>
+      <input type="text" id="searchInput" placeholder="e.g. AAPL, RELIANCE..." oninput="processData()">
+    </div>
+
+    <div class="form-group">
+      <label for="watchlistFilter">Watchlist View</label>
+      <select id="watchlistFilter" onchange="processData()">
+        <option value="ALL">All Tickers</option>
+        <option value="WATCHLIST">&#9733; Watchlist Only</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="freshRedFilter">OB Touch / Sweep State</label>
+      <select id="freshRedFilter" onchange="processData()">
+        <option value="ALL">All Setups</option>
+        <option value="FRESH">&#x1F7E2; Fresh Touch / Sweep Only (Latest Bar)</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="minMarketCap">Min Market Cap ($M)</label>
+      <input type="number" id="minMarketCap" placeholder="e.g. 100" oninput="processData()">
+    </div>
+    <div class="form-group">
+      <label for="maxMarketCap">Max Market Cap ($M)</label>
+      <input type="number" id="maxMarketCap" placeholder="e.g. 50000" oninput="processData()">
+    </div>
+
+    <div class="form-group">
+      <label for="minPrice">Min Price ($)</label>
+      <input type="number" id="minPrice" placeholder="e.g. 5" oninput="processData()">
+    </div>
+    <div class="form-group">
+      <label for="maxPrice">Max Price ($)</label>
+      <input type="number" id="maxPrice" placeholder="e.g. 500" oninput="processData()">
+    </div>
+
+    <div class="form-group">
+      <label for="zoneFilter">SMC Fib Pricing Zone</label>
+      <select id="zoneFilter" onchange="processData()">
+        <option value="ALL">All Zones (OTE, Discount, Premium)</option>
+        <option value="OTE">&#x1F3AF; OTE Zone Only (61.8% - 79%)</option>
+        <option value="DISCOUNT">&#x1F7E2; Discount Zone Only (&lt; 50%)</option>
+        <option value="PREMIUM">&#x1F534; Premium Zone Only (&gt; 50%)</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="proximitySelect">Dynamic Proximity (%)</label>
+      <select id="proximitySelect" onchange="fetchTechnicalStocks()">
+        <option value="1">1% Proximity</option>
+        <option value="2" selected>2% Proximity (Default)</option>
+        <option value="3">3% Proximity</option>
+        <option value="5">5% Proximity</option>
+        <option value="10">10% Proximity</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="tfFilter">Timeframe Filter</label>
+      <select id="tfFilter" onchange="processData()">
+        <option value="ALL">All Timeframes (4H, 1D, 1W, 1M, 3M)</option>
+        <option value="4H">4-Hour (4H)</option>
+        <option value="Daily">Daily (1D)</option>
+        <option value="Weekly">Weekly (1W)</option>
+        <option value="Monthly">Monthly (1M)</option>
+        <option value="3M">3-Month (3M)</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="exchangeFilter">Exchange</label>
+      <select id="exchangeFilter" onchange="processData()">
+        <option value="ALL">All Exchanges</option>
+        <option value="NASDAQ">NASDAQ</option>
+        <option value="NYSE">NYSE</option>
+        <option value="NSE">NSE</option>
+        <option value="BSE">BSE</option>
+      </select>
+    </div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th id="th_sr_no" onclick="sortTable('sr_no')">Sr No. <span>&#9650;</span></th>
+        <th id="th_ticker" onclick="sortTable('ticker')">Ticker <span>&#9650;</span></th>
+        <th id="th_name" onclick="sortTable('name')">Company Name <span>&#9650;</span></th>
+        <th id="th_market_cap" onclick="sortTable('market_cap')">Market Cap <span>&#9650;</span></th>
+        <th id="th_price_num" onclick="sortTable('price_num')">Db Price <span>&#9650;</span></th>
+        <th id="th_primary_zone_tag" onclick="sortTable('primary_zone_tag')">Pricing Zone Tag <span>&#9650;</span></th>
+        <th id="th_primary_tf" onclick="sortTable('primary_tf')">Timeframe <span>&#9650;</span></th>
+        <th id="th_primary_ob_val" onclick="sortTable('primary_ob_val')">Order Block Zone <span>&#9650;</span></th>
+        <th id="th_primary_fvg_val" onclick="sortTable('primary_fvg_val')">FVG Range <span>&#9650;</span></th>
+        <th id="th_primary_red_touch" onclick="sortTable('primary_red_touch')" title="HIGH/LOW of red or green candle touching top of OB or liquidity sweep candle inside OB">OB Touch / Sweep Candle H/L <span>&#9650;</span></th>
+        <th id="th_primary_prox_num" onclick="sortTable('primary_prox_num')">Proximity <span>&#9650;</span></th>
+        <th id="th_exchange" onclick="sortTable('exchange')">Exchange / Chart <span>&#9650;</span></th>
+      </tr>
+    </thead>
+    <tbody id="technicalTableBody">
+      <tr><td colspan="12" style="text-align:center;">Loading database setups...</td></tr>
+    </tbody>
+  </table>
+
+  <div class="bottom-controls-bar">
+    <div style="display:flex; justify-content:space-between; align-items:center;">
+      <div>
+        <button class="refresh-trigger-btn" onclick="startTechnicalRefresh()">&#x26A1; Refresh Technical OHLC Data (PASS Stocks)</button>
+        <button id="stopBtn" class="stop-trigger-btn" onclick="stopTechnicalRefresh()" style="display:none;">&#x1F6D1; Stop Refresh</button>
+      </div>
+      <div style="text-align:right;">
+        <div id="refreshStatusLabel" style="font-size:0.85rem; color:#94a3b8;">Status: Idle</div>
+        <div id="nextAutoRefreshLabel" style="font-size:0.85rem; color:#94a3b8; margin-top:2px;"></div>
+      </div>
+    </div>
+
+    <div id="progressBox" class="progress-container">
+      <div style="display:flex; justify-content:space-between; font-size:0.82rem; font-weight:600;">
+        <span id="progressText">Updating OHLC data...</span>
+        <span id="progressPercent">0%</span>
+      </div>
+      <div class="progress-bar-bg">
+        <div id="progressBarFill" class="progress-bar-fill"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pagination-bar">
+    <div id="paginationInfo" style="font-size:0.9rem; color:#94a3b8;">Showing 0 of 0 tickers</div>
+    <div>
+      <button id="prevBtn" class="pg-btn" onclick="changePage(-1)" disabled>Previous</button>
+      <span id="pageIndicator" style="font-size:0.9rem; font-weight:600; margin: 0 8px;">Page 1</span>
+      <button id="nextBtn" class="pg-btn" onclick="changePage(1)" disabled>Next</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  let rawData = [];
+  let filteredData = [];
+  let currentPage = 1;
+  const pageSize = 50;
+  let currentSortColumn = null;
+  let isAscending = true;
+  let refreshTimer = null;
+  let targetNextAutoTime = null;
+
+  let watchlistSet = new Set(JSON.parse(localStorage.getItem('smc_watchlist') || '[]'));
+
+  function saveWatchlist() {
+    localStorage.setItem('smc_watchlist', JSON.stringify(Array.from(watchlistSet)));
+  }
+
+  function toggleWatchlist(tickerSymbol) {
+    if (watchlistSet.has(tickerSymbol)) {
+      watchlistSet.delete(tickerSymbol);
+    } else {
+      watchlistSet.add(tickerSymbol);
+    }
+    saveWatchlist();
+    processData();
+  }
+
+  function parseSafeNum(val, fallback = 0) {
+    if (val === null || val === undefined || val === '') return fallback;
+    const n = parseFloat(val);
+    return isNaN(n) ? fallback : n;
+  }
+
+  async function fetchTechnicalStocks() {
+    const tbody = document.getElementById('technicalTableBody');
+    tbody.innerHTML = '<tr><td colspan="12" style="text-align:center;">Loading database setups...</td></tr>';
+    
+    const prox = document.getElementById('proximitySelect').value;
+
+    try {
+      const response = await fetch(`/api/technical-stocks?proximity=${prox}`);
+      const result = await response.json();
+      rawData = result.data || [];
+      
+      rawData.forEach((item, index) => {
+        item.sr_no = index + 1;
+        const details = item.tf_details || [];
+        const primary = details[0] || {};
+
+        item.primary_zone_tag = primary.zoneTag || 'N/A';
+        item.primary_tf = primary.timeframe || 'N/A';
+        item.primary_ob_val = parseSafeNum(primary.obTop || primary.zoneHigh || (primary.zone ? primary.zone.split('-')[0] : 0));
+        item.primary_fvg_val = parseSafeNum(primary.fvgLow || (primary.fvgRange ? primary.fvgRange.split('-')[0] : 0));
+        item.primary_red_touch = primary.firstRedTouchStr || 'N/A';
+        
+        const proxNum = primary.proximityStr ? parseFloat(primary.proximityStr.replace('%', '')) : 999;
+        item.primary_prox_num = isNaN(proxNum) ? 999 : proxNum;
+      });
+
+      processData();
+    } catch (err) {
+      console.error('Error fetching technical setup data:', err);
+    }
+  }
+
+  async function startTechnicalRefresh() {
+    try {
+      const res = await fetch('/api/trigger-technical-refresh', { method: 'POST' });
+      const data = await res.json();
+      if (data.success) {
+        document.getElementById('progressBox').style.display = 'block';
+        document.getElementById('stopBtn').style.display = 'inline-block';
+        pollRefreshStatus();
+      }
+    } catch (err) {
+      console.error('Error starting refresh:', err);
+    }
+  }
+
+  async function stopTechnicalRefresh() {
+    try {
+      document.getElementById('stopBtn').innerText = 'Stopping...';
+      await fetch('/api/stop-technical-refresh', { method: 'POST' });
+    } catch (err) {
+      console.error('Error stopping refresh:', err);
+    }
+  }
+
+  async function pollRefreshStatus() {
+    try {
+      const res = await fetch('/api/refresh-status');
+      const data = await res.json();
+
+      if (data.nextAutoRefresh) {
+        targetNextAutoTime = data.nextAutoRefresh;
+        updateCountdownDisplay();
+      }
+
+      const statusLabel = document.getElementById('refreshStatusLabel');
+      const progressBox = document.getElementById('progressBox');
+      const stopBtn = document.getElementById('stopBtn');
+      const progressText = document.getElementById('progressText');
+      const progressPercent = document.getElementById('progressPercent');
+      const progressBarFill = document.getElementById('progressBarFill');
+
+      if (statusLabel) {
+        statusLabel.innerText = `Status: ${data.status || 'Idle'}`;
+      }
+
+      if (data.status === 'running') {
+        if (progressBox) progressBox.style.display = 'block';
+        if (stopBtn) {
+          stopBtn.style.display = 'inline-block';
+          stopBtn.innerHTML = '&#x1F6D1; Stop Refresh';
+        }
+        if (statusLabel) statusLabel.innerText = `Scanning PASS Stocks: ${data.completed || 0} / ${data.total || 0}`;
+
+        if (progressText) progressText.innerText = `Updating: ${data.currentTicker || 'N/A'} (${data.completed || 0}/${data.total || 0})`;
+        if (progressPercent) progressPercent.innerText = `${data.progress || 0}%`;
+        if (progressBarFill) progressBarFill.style.width = `${data.progress || 0}%`;
+
+        if (!refreshTimer) {
+          refreshTimer = setInterval(pollRefreshStatus, 2000);
+        }
+      } else {
+        if (stopBtn) stopBtn.style.display = 'none';
+
+        if (data.status === 'completed' || data.status === 'cancelled') {
+          if (data.status === 'completed') {
+            if (statusLabel) statusLabel.innerText = `&#x1F7E2; Refresh Complete (${data.total || 0} stocks scanned)`;
+            if (progressText) progressText.innerText = `&#x1F7E2; Refresh Complete! Total: ${data.total || 0}`;
+          } else {
+            if (statusLabel) statusLabel.innerText = `&#x1F6D1; Refresh Stopped at ${data.completed || 0} stocks`;
+            if (progressText) progressText.innerText = `&#x1F6D1; Stopped (${data.completed || 0}/${data.total || 0})`;
+          }
+
+          if (progressPercent) progressPercent.innerText = `100%`;
+          if (progressBarFill) progressBarFill.style.width = `100%`;
+
+          setTimeout(() => {
+            if (progressBox) progressBox.style.display = 'none';
+          }, 4000);
+        }
+
+        if (refreshTimer) {
+          clearInterval(refreshTimer);
+          refreshTimer = null;
+        }
+      }
+    } catch (err) {
+      console.error('Error fetching refresh status:', err);
+    }
+  }
+
+  async function fetchSingleLivePrice(rawTicker, elementId) {
+    const el = document.getElementById(elementId);
+    if (!el) return;
+    el.innerHTML = '&#128257;...';
+
+    const safeTicker = (rawTicker || '').toString().trim();
+    if (!safeTicker) {
+      el.innerHTML = `Err <button class="refresh-btn" onclick="fetchSingleLivePrice('${rawTicker}', '${elementId}')">&#128257;</button>`;
+      return;
+    }
+
+    try {
+      const res = await fetch(`/api/live-price/${encodeURIComponent(safeTicker)}`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      if (data.success && data.price_fmt) {
+        el.innerHTML = `<strong>${data.price_fmt}</strong> <button class="refresh-btn" onclick="fetchSingleLivePrice('${safeTicker}', '${elementId}')" title="Refresh Live Price">&#128257;</button>`;
+      } else {
+        el.innerHTML = `Err <button class="refresh-btn" onclick="fetchSingleLivePrice('${safeTicker}', '${elementId}')">&#128257;</button>`;
+      }
+    } catch (e) {
+      console.error('Failed to fetch live price for:', safeTicker, e);
+      el.innerHTML = `Err <button class="refresh-btn" onclick="fetchSingleLivePrice('${safeTicker}', '${elementId}')">&#128257;</button>`;
+    }
+  }
+
+  function processData() {
+    const search = document.getElementById('searchInput').value.toLowerCase().trim();
+    const watchlistFilter = document.getElementById('watchlistFilter').value;
+    const freshFilter = document.getElementById('freshRedFilter').value;
+    const minMcapM = parseFloat(document.getElementById('minMarketCap').value);
+    const maxMcapM = parseFloat(document.getElementById('maxMarketCap').value);
+    const minP = parseFloat(document.getElementById('minPrice').value);
+    const maxP = parseFloat(document.getElementById('maxPrice').value);
+
+    const selectedZone = document.getElementById('zoneFilter').value;
+    const selectedTf = document.getElementById('tfFilter').value;
+    const selectedExchange = document.getElementById('exchangeFilter').value;
+
+    filteredData = rawData.filter(stock => {
+      if (watchlistFilter === 'WATCHLIST' && !watchlistSet.has(stock.ticker)) return false;
+      if (freshFilter === 'FRESH' && !stock.has_fresh_red_touch) return false;
+
+      if (search) {
+        const tMatch = (stock.ticker || '').toLowerCase().includes(search);
+        const cMatch = (stock.name || '').toLowerCase().includes(search);
+        if (!tMatch && !cMatch) return false;
+      }
+
+      const capInMillions = (stock.market_cap || 0) / 1000000;
+      if (!isNaN(minMcapM) && capInMillions < minMcapM) return false;
+      if (!isNaN(maxMcapM) && capInMillions > maxMcapM) return false;
+
+      const p = stock.price_num || 0;
+      if (!isNaN(minP) && p < minP) return false;
+      if (!isNaN(maxP) && p > maxP) return false;
+
+      if (selectedZone !== 'ALL' && !(stock.zone_codes || []).includes(selectedZone)) return false;
+      if (selectedTf !== 'ALL' && !(stock.timeframe_list || []).includes(selectedTf)) return false;
+      if (selectedExchange !== 'ALL' && stock.exchange !== selectedExchange) return false;
+
+      return true;
+    });
+
+    if (currentSortColumn) executeSort();
+    renderTable();
+  }
+
+  function sortTable(columnKey) {
+    if (currentSortColumn === columnKey) { 
+      isAscending = !isAscending; 
+    } else { 
+      currentSortColumn = columnKey; 
+      isAscending = true; 
+    }
+
+    document.querySelectorAll('th span').forEach(s => s.innerHTML = '&#9650;');
+    const activeTh = document.getElementById(`th_${columnKey}`);
+    if (activeTh) {
+      const span = activeTh.querySelector('span');
+      if (span) span.innerHTML = isAscending ? '&#9650;' : '&#9660;';
+    }
+
+    executeSort();
+    renderTable();
+  }
+
+  function executeSort() {
+    filteredData.sort((a, b) => {
+      let valA = a[currentSortColumn];
+      let valB = b[currentSortColumn];
+
+      if (valA === null || valA === undefined) valA = isAscending ? Infinity : -Infinity;
+      if (valB === null || valB === undefined) valB = isAscending ? Infinity : -Infinity;
+
+      if (typeof valA === 'string') return isAscending ? valA.localeCompare(valB) : valB.localeCompare(valA);
+      return isAscending ? valA - valB : valB - valA;
+    });
+  }
+
+  function renderTable() {
+    const tbody = document.getElementById('technicalTableBody');
+    const freshFilter = document.getElementById('freshRedFilter').value;
+
+    if (filteredData.length === 0) {
+      tbody.innerHTML = '<tr><td colspan="12" style="text-align:center;">No matching setups found for selected filters.</td></tr>';
+      document.getElementById('paginationInfo').innerText = 'Showing 0 of 0 tickers';
+      document.getElementById('prevBtn').disabled = true;
+      document.getElementById('nextBtn').disabled = true;
+      return;
+    }
+
+    const totalPages = Math.ceil(filteredData.length / pageSize);
+    if (currentPage > totalPages) currentPage = totalPages;
+    if (currentPage < 1) currentPage = 1;
+
+    const startIndex = (currentPage - 1) * pageSize;
+    const endIndex = Math.min(startIndex + pageSize, filteredData.length);
+    const pageItems = filteredData.slice(startIndex, endIndex);
+
+    tbody.innerHTML = pageItems.map((stock, idx) => {
+      let details = stock.tf_details || [];
+      if (freshFilter === 'FRESH') {
+        details = details.filter(d => d.isFirstRedLatest);
+      }
+
+      const priceCellId = `price-cell-${startIndex + idx}`;
+      const symbolForLive = stock.raw_ticker || stock.ticker || '';
+      const inWatchlist = watchlistSet.has(stock.ticker);
+      const btnClass = inWatchlist ? 'watchlist-btn active' : 'watchlist-btn';
+      const btnText = inWatchlist ? '&#9733;' : '+';
+      const btnTitle = inWatchlist ? 'Remove from Watchlist' : 'Add to Watchlist';
+
+      const zoneCol = details.map(d => {
+        let color = '#ef4444';
+        if (d.inOTE) color = '#38bdf8';
+        else if (d.inDiscount) color = '#10b981';
+
+        return `<div class="tf-row-item"><span class="badge" style="background-color:${color}22; color:${color}; border:1px solid ${color};">${d.zoneTag}</span></div>`;
+      }).join('');
+
+      const tfCol = details.map(d => `<div class="tf-row-item"><span class="badge badge-tf">${d.timeframe}</span></div>`).join('');
+      const obCol = details.map(d => `<div class="tf-row-item"><strong>${d.zone}</strong></div>`).join('');
+      const fvgCol = details.map(d => `<div class="tf-row-item">${d.fvgRange}</div>`).join('');
+      const redTouchCol = details.map(d => {
+        const freshBadge = d.isFirstRedLatest ? `<span class="badge badge-fresh">FRESH</span>` : '';
+        return `<div class="tf-row-item" style="color:#ef4444; font-weight:600;">${d.firstRedTouchStr} ${freshBadge}</div>`;
+      }).join('');
+      const proxCol = details.map(d => `<div class="tf-row-item"><small style="color:#10b981;">${d.proximityStr}</small></div>`).join('');
+
+      return `
+        <tr>
+          <td><strong>${stock.sr_no}</strong></td>
+          <td>
+            <strong>${stock.ticker}</strong>
+            <button class="${btnClass}" onclick="toggleWatchlist('${stock.ticker}')" title="${btnTitle}">${btnText}</button>
+          </td>
+          <td>${stock.name}</td>
+          <td>${stock.market_cap_fmt}</td>
+          <td id="${priceCellId}">
+            <strong>${stock.price_fmt}</strong>
+            <button class="refresh-btn" onclick="fetchSingleLivePrice('${symbolForLive}', '${priceCellId}')" title="Refresh Live Quote">&#128257;</button>
+          </td>
+          <td>${zoneCol}</td>
+          <td>${tfCol}</td>
+          <td>${obCol}</td>
+          <td>${fvgCol}</td>
+          <td>${redTouchCol}</td>
+          <td>${proxCol}</td>
+          <td><a href="${stock.tradingview_url}" target="_blank" style="color:#38bdf8; text-decoration:none;">View (${stock.exchange}) &#x2197;&#xFE0F;</a></td>
+        </tr>
+      `;
+    }).join('');
+
+    document.getElementById('paginationInfo').innerText = `Showing ${startIndex + 1}-${endIndex} of ${filteredData.length} tickers`;
+    document.getElementById('pageIndicator').innerText = `Page ${currentPage} of ${totalPages}`;
+    document.getElementById('prevBtn').disabled = currentPage === 1;
+    document.getElementById('nextBtn').disabled = currentPage === totalPages;
+  }
+
+  function changePage(dir) { currentPage += dir; renderTable(); }
+
+  function exportToCSV() {
+    if (filteredData.length === 0) {
+      alert("No data available to export!");
+      return;
+    }
+
+    const freshFilter = document.getElementById('freshRedFilter').value;
+    const headers = [
+      "Sr No.", "Ticker", "Watchlist", "Company Name", "Market Cap", "Price", 
+      "SMC Pricing Zone", "Timeframe", "Order Block Zone", "FVG Range", "OB Touch / Sweep Candle H/L", "Fresh Touch?", "Proximity"
+    ];
+
+    const csvRows = [];
+    csvRows.push(headers.map(h => `"${h}"`).join(','));
+
+    filteredData.forEach((stock) => {
+      let details = stock.tf_details || [];
+      if (freshFilter === 'FRESH') {
+        details = details.filter(d => d.isFirstRedLatest);
+      }
+
+      details.forEach(d => {
+        const row = [
+          stock.sr_no,
+          `"${stock.ticker}"`,
+          `"${watchlistSet.has(stock.ticker) ? 'YES' : 'NO'}"`,
+          `"${(stock.name || '').replace(/"/g, '""')}"`,
+          `"${stock.market_cap_fmt}"`,
+          `"${stock.price_fmt}"`,
+          `"${d.zoneTag}"`,
+          `"${d.timeframe}"`,
+          `"${d.zone}"`,
+          `"${d.fvgRange}"`,
+          `"${d.firstRedTouchStr}"`,
+          `"${d.isFirstRedLatest ? 'YES' : 'NO'}"`,
+          `"${d.proximityStr}"`
+        ];
+        csvRows.push(row.join(','));
+      });
+    });
+
+    const csvString = csvRows.join('\n');
+    const blob = new Blob([csvString], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const link = document.appendLink || document.createElement('a');
+    link.setAttribute('href', url);
+    link.setAttribute('download', `institutional_smc_screener_${new Date().toISOString().slice(0, 10)}.csv`);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+
+  function formatLocalTime(isoString) {
+    if (!isoString) return "--:--:--";
+    const d = new Date(isoString);
+    return d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+  }
+
+  function updateCountdownDisplay() {
+    if (!targetNextAutoTime) return;
+    const now = new Date().getTime();
+    const target = new Date(targetNextAutoTime).getTime();
+    const diff = target - now;
+
+    const nextLabel = document.getElementById('nextAutoRefreshLabel');
+    if (!nextLabel) return;
+
+    if (diff <= 0) {
+      nextLabel.innerHTML = `&#x23F0; Next Auto Refresh: <span style="color:#eab308;">Refreshing now...</span>`;
+    } else {
+      const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+      const formattedTime = formatLocalTime(targetNextAutoTime);
+      nextLabel.innerHTML = `&#x23F0; Next Auto Refresh: <span style="color:#38bdf8;">${formattedTime}</span> (${minutes}m ${seconds}s)`;
+    }
+  }
+
+  setInterval(updateCountdownDisplay, 1000);
+
+  document.addEventListener('DOMContentLoaded', () => {
+    fetchTechnicalStocks();
+    pollRefreshStatus();
+  });
+</script>
+
+</body>
+</html>
