@@ -1,6 +1,6 @@
 # Project-01-Screen-and-Scan
 Its an end-to-end, full-stack financial analysis and screening application.
-GlobalRadarProGlobalRadarPro is an end-to-end, full-stack financial analysis and technical market screening application. It provides real-time equity screening using custom institutional trading models (Smart Money Concepts / ICT) and custom financial ratio filters across global stock exchanges (NASDAQ, NYSE, NSE, BSE).
+GlobalRadarProGlobalRadarPro is an end-to-end, full-stack financial analysis and technical market screening application. It provides real-time equity screening using custom institutional trading models and custom financial ratio filters across global stock exchanges.
 # Key FeaturesInstitutional:
 ## SMC & ICT Technical Screener:
 Detects Optimal Trade Entry (OTE) zones ($61.8\% - 79\%$ Fibonacci retracements), Order Blocks (OB), and Fair Value Gaps (FVG).Tracks multi-timeframe setups (4H, Daily, Weekly, Monthly, 3M).Identifies fresh Order Block touches, liquidity sweeps, and price proximity thresholds.
